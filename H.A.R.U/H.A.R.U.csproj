@@ -1,0 +1,296 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{34FE4329-7121-4FE8-88D9-7D22E631D0C4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>H.A.R.U</RootNamespace>
+    <AssemblyName>H.A.R.U</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44385</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.25.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\Uni\cnpm\bin\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="html\img\1.jpg" />
+    <Content Include="html\img\1010571843_QQ-S303J207Y.jpg" />
+    <Content Include="html\img\1039535751_QQ-S281J102Y.jpg" />
+    <Content Include="html\img\1147973314_AT-56555.45.21.jpg" />
+    <Content Include="html\img\115319853_ddweb19.jpg" />
+    <Content Include="html\img\1170x400_1566979910.jpg" />
+    <Content Include="html\img\1206108392_S312J202.jpg" />
+    <Content Include="html\img\1245270013_20335.45.21 %281%29.jpg" />
+    <Content Include="html\img\1245270013_20335.45.21.jpg" />
+    <Content Include="html\img\1247970559_S310J200Y.jpg" />
+    <Content Include="html\img\1328276598_dong-ho-thuy-sy6.jpg" />
+    <Content Include="html\img\143315601_Dong-ho-aries-gold-G9005 G-BK.png" />
+    <Content Include="html\img\146707285_ddweb17.jpg" />
+    <Content Include="html\img\1528175641_BB14-010Y_BB15-010Y.jpg" />
+    <Content Include="html\img\1560014040_ảnh-test5.jpg" />
+    <Content Include="html\img\1584946967_thumbnail-%283%29.jpg" />
+    <Content Include="html\img\159090920_QQ-S297J401Y.jpg" />
+    <Content Include="html\img\1623017984_ĐỒNG-HỒ-CHÍNH-HÃNG-7.jpg" />
+    <Content Include="html\img\1758061187_đồng-hồ-chính-hãng162.jpg" />
+    <Content Include="html\img\1779370347_mua-hang-tra-gop.jpg" />
+    <Content Include="html\img\1790107421_đồng-hồ-chính-hãng17.jpg" />
+    <Content Include="html\img\1809432122_đồng-hồ-chính-hãng82.jpg" />
+    <Content Include="html\img\1817558337_AT-64456.45.31.jpg" />
+    <Content Include="html\img\1847097644_đồng-hồ-chính-hãng26.jpg" />
+    <Content Include="html\img\1860347729_ddweb25.jpg" />
+    <Content Include="html\img\1878934434_S312J212.jpg" />
+    <Content Include="html\img\1952272278_1-1999H.jpg" />
+    <Content Include="html\img\1953389537_20335.43.28G.jpg" />
+    <Content Include="html\img\1981572460_S312J232.jpg" />
+    <Content Include="html\img\2.jpg" />
+    <Content Include="html\img\2032416867_Untitled-3.jpg" />
+    <Content Include="html\img\2032563351_S308J212Y.jpg" />
+    <Content Include="html\img\207268426_QQ-S303J202Y.jpg" />
+    <Content Include="html\img\2094581742_ddweb14.jpg" />
+    <Content Include="html\img\2099221709_AG-L9023 S-W.jpg" />
+    <Content Include="html\img\2119808045_S310J222.jpg" />
+    <Content Include="html\img\2127487811_dong-ho-diamond-d-DM5308B5IG.jpg" />
+    <Content Include="html\img\2144894182_E-3420.152.22.16.15.jpg" />
+    <Content Include="html\img\235176634_DONG-HO-CHINH-HANG-2.jpg" />
+    <Content Include="html\img\273783221_đồng-hồ-chính-hãng5.jpg" />
+    <Content Include="html\img\276234753_3 %281%29.jpg" />
+    <Content Include="html\img\276234753_3.jpg" />
+    <Content Include="html\img\293124098_đồng-hồ-nhật25.jpg" />
+    <Content Include="html\img\3.jpg" />
+    <Content Include="html\img\301102054_st1.jpg" />
+    <Content Include="html\img\330108915_đồng-hô-chính-hãng14.jpg" />
+    <Content Include="html\img\364723213_Untitled-56.jpg" />
+    <Content Include="html\img\372718524_Untitled-91.jpg" />
+    <Content Include="html\img\373860224_Untitled-14.jpg" />
+    <Content Include="html\img\37478672_S305J010Y.jpg" />
+    <Content Include="html\img\382964343_Dong-ho-Epos-Swiss-8000.700.22.65.15.jpg" />
+    <Content Include="html\img\396102873_29038.45.08MB.jpg" />
+    <Content Include="html\img\5-buoc-len-ke-hoach-xay-dung-fanpage-2.jpg" />
+    <Content Include="html\img\51258209_QQ-S312J222Y.jpg" />
+    <Content Include="html\img\54363705_QQ-S303J007Y.jpg" />
+    <Content Include="html\img\556758425_64378757_1988975311208649_4488116558031224832_n.png" />
+    <Content Include="html\img\570740049_đồng-hồ-nhật22.jpg" />
+    <Content Include="html\img\622576970_đồng-hồ-chính-hãng124.jpg" />
+    <Content Include="html\img\629502410_Untitled-135.jpg" />
+    <Content Include="html\img\647824030_đồng-hồ-chính-hãng4.jpg" />
+    <Content Include="html\img\652432764_đồng-hô-chính-hãng28.jpg" />
+    <Content Include="html\img\664894802_AG-L9023 S-BK.jpg" />
+    <Content Include="html\img\667853922_QQ-S303J010Y.jpg" />
+    <Content Include="html\img\702352562_Untitled-1.jpg" />
+    <Content Include="html\img\7306617_Untitled-9.jpg" />
+    <Content Include="html\img\765176504_đồng-hô-chính-hãng12.jpg" />
+    <Content Include="html\img\800x530_1569895185.png" />
+    <Content Include="html\img\800x530_1570777368.png" />
+    <Content Include="html\img\808765635_DDWEB8.jpg" />
+    <Content Include="html\img\816357065_Dong-ho-atlantic-AT-10351.45.91 web.jpg" />
+    <Content Include="html\img\841657192_QQ-S297J010Y.jpg" />
+    <Content Include="html\img\858150538_Untitled-11.jpg" />
+    <Content Include="html\img\906071792_ddweb3.jpg" />
+    <Content Include="html\img\a.png" />
+    <Content Include="html\img\AriesGold.jpg" />
+    <Content Include="html\img\Atlatic.jpg" />
+    <Content Include="html\img\Bang-ron-tra-gop.jpg" />
+    <Content Include="html\img\banner.jpg" />
+    <Content Include="html\img\bg3.jpg" />
+    <Content Include="html\img\bh_1562728449.jpg" />
+    <Content Include="html\img\but-ky-pa-home.jpg" />
+    <Content Include="html\img\cach-lam-the-tin-dung-fe-credit_1568964765.jpg" />
+    <Content Include="html\img\Capture.PNG" />
+    <Content Include="html\img\Capture0.PNG" />
+    <Content Include="html\img\Capture1.PNG" />
+    <Content Include="html\img\Capture10.PNG" />
+    <Content Include="html\img\Capture11.PNG" />
+    <Content Include="html\img\Capture12.PNG" />
+    <Content Include="html\img\Capture13.PNG" />
+    <Content Include="html\img\Capture14.PNG" />
+    <Content Include="html\img\Capture15.PNG" />
+    <Content Include="html\img\Capture16.PNG" />
+    <Content Include="html\img\Capture17.PNG" />
+    <Content Include="html\img\Capture18.PNG" />
+    <Content Include="html\img\Capture19.PNG" />
+    <Content Include="html\img\Capture2.PNG" />
+    <Content Include="html\img\Capture20.PNG" />
+    <Content Include="html\img\Capture21.PNG" />
+    <Content Include="html\img\Capture23.PNG" />
+    <Content Include="html\img\Capture24.PNG" />
+    <Content Include="html\img\Capture25.PNG" />
+    <Content Include="html\img\Capture26.PNG" />
+    <Content Include="html\img\Capture27.PNG" />
+    <Content Include="html\img\Capture28.PNG" />
+    <Content Include="html\img\Capture29.PNG" />
+    <Content Include="html\img\Capture3.PNG" />
+    <Content Include="html\img\Capture30.PNG" />
+    <Content Include="html\img\Capture31.PNG" />
+    <Content Include="html\img\Capture32.PNG" />
+    <Content Include="html\img\Capture33.PNG" />
+    <Content Include="html\img\Capture34.PNG" />
+    <Content Include="html\img\Capture35.PNG" />
+    <Content Include="html\img\Capture36.PNG" />
+    <Content Include="html\img\Capture37.PNG" />
+    <Content Include="html\img\Capture4.PNG" />
+    <Content Include="html\img\Capture7.PNG" />
+    <Content Include="html\img\Capture8.PNG" />
+    <Content Include="html\img\Capture9.PNG" />
+    <Content Include="html\img\cua-hang-dang-quang.jpg" />
+    <Content Include="html\img\DiamondD.jpg" />
+    <Content Include="html\img\DMCA_logo-grn-btn100w.png" />
+    <Content Include="html\img\dong-ho-atlantic-10351_45_91%284%29.jpg" />
+    <Content Include="html\img\dong-ho-atlantic-29033_45_28%286%29.jpg" />
+    <Content Include="html\img\dong-ho-atlantic-50354_45_61%285%29.jpg" />
+    <Content Include="html\img\dong-ho-atlantic-55475_47_65R%282%29.jpg" />
+    <Content Include="html\img\dong-ho-atlantic-62347_43_21G%284%29.jpg" />
+    <Content Include="html\img\dong-ho-citizen-eco-drive-sieu-mong_1565275504.jpg" />
+    <Content Include="html\img\dong-ho-citizen-sapphire-namjpg_1565584262.jpg" />
+    <Content Include="html\img\dong-ho-co-sk-orient-xwatch_1569577311.jpg" />
+    <Content Include="html\img\Epos.jpg" />
+    <Content Include="html\img\facebook-fanpage-donghodangquang.jpg" />
+    <Content Include="html\img\huong-dan-su-dung-dong-ho_1562810281.jpg" />
+    <Content Include="html\img\ico10.png" />
+    <Content Include="html\img\ico11.png" />
+    <Content Include="html\img\Jacques.jpg" />
+    <Content Include="html\img\l.png" />
+    <Content Include="html\img\lich-su-thuong-hieu-orient-nhat-ban_1569298247.jpg" />
+    <Content Include="html\img\logo %281%29.png" />
+    <Content Include="html\img\Logo.png" />
+    <Content Include="html\img\logo1.png" />
+    <Content Include="html\img\logo2.png" />
+    <Content Include="html\img\logo3.png" />
+    <Content Include="html\img\logo4.png" />
+    <Content Include="html\img\photo-1-1461343345675.jpg" />
+    <Content Include="html\img\photo-1-1470836862788.jpg" />
+    <Content Include="html\img\pvp2-1530805413307343978859.jpg" />
+    <Content Include="html\img\Q-Q.jpg" />
+    <Content Include="html\img\sai-so-citizen-skyhawk-a-t.jpg" />
+    <Content Include="html\img\ST-156.124W14.jpg" />
+    <Content Include="html\img\ST-165B2.3345K14.jpg" />
+    <Content Include="html\img\ST-165B2B.333331.jpg" />
+    <Content Include="html\img\ST-207.01.jpg" />
+    <Content Include="html\img\ST-307B.334469.jpg" />
+    <Content Include="html\img\ST-601.33152.jpg" />
+    <Content Include="html\img\ST-646.02.jpg" />
+    <Content Include="html\img\ST-646.03.jpg" />
+    <Content Include="html\img\ST-710.04.jpg" />
+    <Content Include="html\img\ST-734LM.01.jpg" />
+    <Content Include="html\img\ST-747.01.jpg" />
+    <Content Include="html\img\ST-934.02.jpg" />
+    <Content Include="html\img\t.png" />
+    <Content Include="html\img\tat-ca-ve-citizen-eco-drive_1569033834.jpg" />
+    <Content Include="scripts\jquery-ui.min.js" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="style\jquery-ui.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="KetNoiMySQL\connectSQL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="html\img\Untitled-1.psd" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51274</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44385/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
