@@ -118,5 +118,7 @@ INSERT INTO users VALUES
 
 INSERT INTO comments VALUES
 (1, 2, 1, CAST(N'2021-08-18 22:22:46' AS DateTime), 5, N'Rất đẹp và chất lượng', 1, NULL),
-(2, 3, 6, CAST(N'2021-08-17 00:30:19' AS DateTime), 4, N'Sản phẩm được giao giống như hình mô tả, rất hài lòng', 1, NULL)
+(2, 3, 6, CAST(N'2021-08-17 00:30:19' AS DateTime), 4, N'Sản phẩm được giao giống như hình mô tả, rất hài lòng', 1, NULL),
+(3, 3, 7, CAST(N'2021-08-19 00:30:19' AS DateTime), 3, N'Vừa tay nhưng hoạ tiết. bề mặt bị trầy xước nhiều, dịch vụ giao hàng còn lâu so với dự kiến', 1, NULL),
+
 
