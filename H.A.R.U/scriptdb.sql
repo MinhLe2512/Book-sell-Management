@@ -104,7 +104,7 @@ INSERT INTO ChiTietSp VALUES
 (8, N'Khung treo trang trí hình cây anh đào', N'Cao Cường', 'HM008', 25000, NULL, 'https://drive.google.com/file/d/10WJxfKrNNAtxW_JA0-nZSd5unqiiH7ib/view?usp=sharing', NULL, 10, NULL, N'Gỗ', NULL, 1),
 (9, N'Túi len', N'Quỳnh Như', 'HM009', 100000, NULL, 'https://drive.google.com/file/d/1Q8Mx7YORqcB0HDKaWcwjj9RJSVekO3BJ/view?usp=sharing', NULL, 22, NULL, N'Vải', NULL, 1),
 (10, N'Vòng cổ màu đỏ', N'Mỹ Phúc', 'HM010', 12000, NULL, 'https://drive.google.com/file/d/1BegxIBjT6NUtHZPbLYz6OXMU38w6l1R_/view?usp=sharing', NULL, 15, NULL, N'Vải', NULL, 1),
-(11, N'Vòng tay màu đỏ', N'Mỹ Phúc', 'HM011', 10000, NULL, 'https://drive.google.com/file/d/1vvcshMFblnGESwpnnnJD_As4uXYXbEym/view?usp=sharing', NULL, 15, NULL, N'Vải', NULL, 1),
+(11, N'Vòng tay màu đỏ', N'Thieen Phúc', 'HM011', 10000, NULL, 'https://drive.google.com/file/d/1vvcshMFblnGESwpnnnJD_As4uXYXbEym/view?usp=sharing', NULL, 15, NULL, N'Vải', NULL, 1),
 (12, N'Vòng tay cá tính nhiều màu', N'Thảo My', 'HM012', 10000, NULL, 'https://drive.google.com/file/d/1vQqug7Q3WET1eg1mg24pa0wrTGx59NVJ/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1),
 (13, N'Vòng tay huyền bí', N'Quốc Dũng', 'HM013', 20000, NULL, 'https://drive.google.com/file/d/1RMt5hZ_iPcAqOJiLl5UHBv6NavOJtgdW/view?usp=sharing', NULL, 8, NULL, N'Vải', NULL, 1);
 
