@@ -113,5 +113,5 @@ INSERT INTO users VALUES
 (1, 'admin', 1, 'https://drive.google.com/file/d/1U48UvMcrzng54WSPEs4ALet3QzU-YArn/view?usp=sharing', 'admin', N'227 Nguyễn Văn Cừ, Phường 4 Quận 5, TPHCM', '077621456', 'harucontact@gmail.com', NULL, NULL, 1),
 (2, 'luthevy', 1, 'https://drive.google.com/file/d/1ErhC9hbPr0wSuVJIR8pH6jq8GuBPA2cO/view?usp=sharing', 'vydeptrai', N'78D Cao Văn Lầu, Phường 2 Quận 6, TPHCM', '0773826118', 'luthevy2001@gmail.com', NULL, '2001-03-17 16:59:04', NULL),
 (3, 'vybui', 0, 'https://drive.google.com/file/d/1ziB6XLekdV33Xj-_NpLDB8VYiMtQtLuG/view?usp=sharing', 'vybuicute', N'152 Phạm Đình Hổ, Phường 3 Quận 6, TPHCM', '078123456', 'vybuibui@gmail.com', NULL, '2001-08-09 16:59:04', NULL);
-(4, 'Mac Hung')
+(4, 'Mac Hung', 1, NULL, 'machung2001', N'123 Lý Thái Tổ, Quận 1', '0122564789', 'machung2001@gmail.com', NULL, NULL, NULL),
 (5, 'hieunghia')
