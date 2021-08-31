@@ -117,5 +117,6 @@ INSERT INTO users VALUES
 (5, 'hieunghia', 1, NULL, 'hnghia2001', N'45/8 Nguyễn Văn Cừ, Quận 5', '0795566412', 'hieunghia2001@gmail.com', NULL, NULL, NULL);
 
 INSERT INTO comments VALUES
-(1, 2, 1, CAST(N'2021-08-18 22:22:46' AS DateTime), 5, N'Rất đẹp và chất lượng', 1, NULL)
+(1, 2, 1, CAST(N'2021-08-18 22:22:46' AS DateTime), 5, N'Rất đẹp và chất lượng', 1, NULL),
+(2, 3, 6, CAST(N'2021-08-17 00:30:19' AS DateTime), 4, N'Sản phẩm được giao giống như hình mô tả, rất hài lòng', 1, NULL)
 
