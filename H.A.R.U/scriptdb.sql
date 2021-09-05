@@ -111,7 +111,7 @@ INSERT INTO ChiTietSp VALUES
 
 INSERT INTO users VALUES
 (1, 'admin', 1, 'https://drive.google.com/file/d/1U48UvMcrzng54WSPEs4ALet3QzU-YArn/view?usp=sharing', 'admin', N'227 Nguyễn Văn Cừ, Phường 4 Quận 5, TPHCM', '077621456', 'harucontact@gmail.com', NULL, NULL, 1),
-(2, 'luthevy', 1, 'https://drive.google.com/file/d/1ErhC9hbPr0wSuVJIR8pH6jq8GuBPA2cO/view?usp=sharing', 'vydeptrai', N'78D Cao Văn Lầu, Phường 2 Quận 6, TPHCM', '0773826118', 'luthevy2001@gmail.com', NULL, '2001-03-17 16:59:04', NULL),
+(2, 'luthevy', 1, 'https://drive.google.com/file/d/1ErhC9hbPr0wSuVJIR8pH6jq8GuBPA2cO/view?usp=sharing', 'vydeptrai', N'78D Cao Văn Lầu, Phường 2 Quận 6, TPHCM', '0773826118', 'luthevy2001@gmail.com', NULL, '2001-03-17 16:59:04', 1),
 (3, 'vybui', 0, 'https://drive.google.com/file/d/1ziB6XLekdV33Xj-_NpLDB8VYiMtQtLuG/view?usp=sharing', 'vybuicute', N'152 Phạm Đình Hổ, Phường 3 Quận 6, TPHCM', '078123456', 'vybuibui@gmail.com', NULL, '2001-08-09 16:59:04', NULL),
 (4, 'Mac Hung', 1, NULL, 'machung2001', N'123 Lý Thái Tổ, Quận 1', '0122564789', 'machung2001@gmail.com', NULL, NULL, NULL),
 (5, 'hieunghia', 1, NULL, 'hnghia2001', N'45/8 Nguyễn Văn Cừ, Quận 5', '0795566412', 'hieunghia2001@gmail.com', NULL, NULL, NULL),
@@ -124,5 +124,6 @@ INSERT INTO comments VALUES
 (2, 3, 6, CAST(N'2021-08-17 00:30:19' AS DateTime), 4, N'Sản phẩm được giao giống như hình mô tả, rất hài lòng', 1, NULL),
 (3, 3, 7, CAST(N'2021-08-19 00:30:19' AS DateTime), 3, N'Vừa tay nhưng hoạ tiết. bề mặt bị trầy xước nhiều, dịch vụ giao hàng còn lâu so với dự kiến', 1, NULL),
 (4, 5, 7, CAST(N'2021-08-27 01:35:30' AS DateTime), 4, N'Cảm ơn về nhận xét, tôi sẽ cân nhắc lại :(', 1, 3),
-(5, 4, 6, CAST(N'2021-08-31 01:39:30' AS DateTime), 4, N'Đẹp quá, chắc phải mua 1 cái ^^', 1, 2);
+(5, 4, 6, CAST(N'2021-08-31 01:39:30' AS DateTime), 4, N'Đẹp quá, chắc phải mua 1 cái ^^', 1, 2),
+(6, 
 
