@@ -126,6 +126,7 @@ INSERT INTO comments VALUES
 (4, 5, 7, CAST(N'2021-08-27 01:35:30' AS DateTime), 4, N'Cảm ơn về nhận xét, tôi sẽ cân nhắc lại :(', 1, 3),
 (5, 4, 6, CAST(N'2021-08-31 01:39:30' AS DateTime), 4, N'Đẹp quá, chắc phải mua 1 cái ^^', 1, 2),
 (6, 7, 13, CAST(N'2021-08-30 01:39:30' AS DateTime), 2, N'Dây bị tưa chỉ, màu không tươi, khá thất vọng', 1, NULL),
-(7, 7, 1, CAST(N'2021-08-30 01:39:30' AS DateTime, 3, N'Sản phẩm khá nhỏ @@', 1, 1)
+(7, 7, 1, CAST(N'2021-08-30 01:39:30' AS DateTime, 3, N'Sản phẩm khá nhỏ @@', 1, 1),
+
 
 
