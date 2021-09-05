@@ -116,6 +116,7 @@ INSERT INTO users VALUES
 (4, 'Mac Hung', 1, NULL, 'machung2001', N'123 Lý Thái Tổ, Quận 1', '0122564789', 'machung2001@gmail.com', NULL, NULL, NULL),
 (5, 'hieunghia', 1, NULL, 'hnghia2001', N'45/8 Nguyễn Văn Cừ, Quận 5', '0795566412', 'hieunghia2001@gmail.com', NULL, NULL, NULL),
 (6, 'xuanmike', 0, NULL, 'xuanmai', N'124A Lê Đại Hành, Quận 11', '0833232648', 'bexuanmai@gmail.com', NULL, '2005-08-09 15:45:04', NULL)
+(7, 'tranthutrang', 0, NULL, 'trangtran', N'23/4 Lê Đại Hành, Quận 11', '08439653125', 'trangxcute@gmail.com', NULL, NULL, NULL)
 
 
 INSERT INTO comments VALUES
