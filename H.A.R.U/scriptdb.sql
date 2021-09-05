@@ -127,6 +127,8 @@ INSERT INTO comments VALUES
 (5, 4, 6, CAST(N'2021-08-31 01:39:30' AS DateTime), 4, N'Đẹp quá, chắc phải mua 1 cái ^^', 1, 2),
 (6, 7, 13, CAST(N'2021-08-30 01:39:30' AS DateTime), 2, N'Dây bị tưa chỉ, màu không tươi, khá thất vọng', 1, NULL),
 (7, 7, 1, CAST(N'2021-08-30 01:39:30' AS DateTime), 3, N'Sản phẩm khá nhỏ @@', 1, 1),
-(8, 6, 2, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sự dễ thương ^^ rất hài lòng', 1, NULL);
+(8, 6, 2, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sự dễ thương ^^ rất hài lòng', 1, NULL),
+(9, 8, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Màu rất nổi bật, có thể phối với nhiều trang phục', 1, NULL),
+(10, 4, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sao? mình sẽ mua thử xem sao', 1, 9);
 
 
