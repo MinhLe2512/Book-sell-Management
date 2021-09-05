@@ -116,8 +116,8 @@ INSERT INTO users VALUES
 (4, 'Mac Hung', 1, NULL, 'machung2001', N'123 Lý Thái Tổ, Quận 1', '0122564789', 'machung2001@gmail.com', NULL, NULL, NULL),
 (5, 'hieunghia', 1, NULL, 'hnghia2001', N'45/8 Nguyễn Văn Cừ, Quận 5', '0795566412', 'hieunghia2001@gmail.com', NULL, NULL, NULL),
 (6, 'xuanmike', 0, NULL, 'xuanmai', N'124A Lê Đại Hành, Quận 11', '0833232648', 'bexuanmai@gmail.com', NULL, '2005-08-09 15:45:04', NULL),
-(7, 'tranthutrang', 0, NULL, 'trangtran', N'23/4 Lê Đại Hành, Quận 11', '08439653125', 'trangxcute@gmail.com', NULL, NULL, NULL)
-(8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL)
+(7, 'tranthutrang', 0, NULL, 'trangtran', N'23/4 Lê Đại Hành, Quận 11', '08439653125', 'trangxcute@gmail.com', NULL, NULL, NULL),
+(8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL);
 
 INSERT INTO comments VALUES
 (1, 2, 1, CAST(N'2021-08-18 22:22:46' AS DateTime), 5, N'Rất đẹp và chất lượng', 1, NULL),
