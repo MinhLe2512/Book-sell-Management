@@ -118,7 +118,7 @@ INSERT INTO users VALUES
 (6, 'xuanmike', 0, NULL, 'xuanmai', N'124A Lê Đại Hành, Quận 11', '0833232648', 'bexuanmai@gmail.com', NULL, '2005-08-09 15:45:04', NULL),
 (7, 'tranthutrang', 0, NULL, 'trangtran', N'23/4 Lê Đại Hành, Quận 11', '08439653125', 'trangxcute@gmail.com', NULL, NULL, NULL),
 (8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL), 
-(9, 'thayloc', 1, NULL, 'locfuhi', N'375/2/34 Lạc Long Quân, Quận Tân Bình', '0773129412', 'locchacha@gmail.com', NULL, NULL, NULL),
+(9, 'thayloc', 1, NULL, 'locfuho', N'375/2/34 Lạc Long Quân, Quận Tân Bình', '0773129412', 'locchacha@gmail.com', NULL, NULL, NULL),
 /*stt, ten, gioi tinh (nam = 1, nu = 0)*/
 
 
