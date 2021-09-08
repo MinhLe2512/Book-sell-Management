@@ -119,8 +119,8 @@ INSERT INTO users VALUES
 (7, 'tranthutrang', 0, NULL, 'trangtran', N'23/4 Lê Đại Hành, Quận 11', '08439653125', 'trangxcute@gmail.com', NULL, NULL, NULL),
 (8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL), 
 (9, 'thayloc', 1, NULL, 'locfuho', N'375/2/34 Lạc Long Quân, Quận Tân Bình', '0773129412', 'locchacha@gmail.com', NULL, NULL, NULL),
-(10, 'cominhthu', 0, NULL, 'cothuvatly', N'189 Vườn Đào, Quận Tân Phú', '0993128510', 'minhthu97gmail.com', NULL, NULL, NULL);
-(11, 'phuonghang', 0, NULL, 'cohang', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL),
+(10, 'cominhthu', 0, NULL, 'cothuvatly', N'189 Vườn Đào, Quận Tân Phú', '0993128510', 'minhthu97gmail.com', NULL, NULL, NULL),
+(11, 'phuonghang', 0, NULL, 'cohang', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL);
 
 /*stt, ten, gioi tinh (nam = 1, nu = 0)*/
 
