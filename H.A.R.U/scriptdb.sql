@@ -120,6 +120,8 @@ INSERT INTO users VALUES
 (8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL), 
 (9, 'thayloc', 1, NULL, 'https://drive.google.com/file/d/1e0BTv7sn_z0tz9j1yC_SWVGig2oN4smX/view?usp=sharing', N'375/2/34 Lạc Long Quân, Quận Tân Bình', '0773129412', 'locchacha@gmail.com', NULL, '2015-02-12 08:12:41', NULL),
 (10, 'cominhthu', 0, NULL, 'https://drive.google.com/file/d/1G6urevowQ8LwBHzwMR3JEtahEIMpwhkO/view?usp=sharing', N'189 Vườn Đào, Quận Tân Phú', '0993128510', 'minhthu97gmail.com', NULL, '2017-01-13 19:47:09', NULL);
+(11, 'cohang', 0, NULL, 'hangpham', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL),
+
 /*stt, ten, gioi tinh (nam = 1, nu = 0)*/
 
 
