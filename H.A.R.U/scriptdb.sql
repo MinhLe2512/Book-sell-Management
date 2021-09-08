@@ -122,8 +122,6 @@ INSERT INTO users VALUES
 (10, 'cominhthu', 0, NULL, 'cothuvatly', N'189 Vườn Đào, Quận Tân Phú', '0993128510', 'minhthu97gmail.com', NULL, NULL, NULL),
 (11, 'phuonghang', 0, NULL, 'cohang', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL);
 
-/*stt, ten, gioi tinh (nam = 1, nu = 0)*/
-
 
 INSERT INTO comments VALUES
 (1, 2, 1, CAST(N'2021-08-18 22:22:46' AS DateTime), 5, N'Rất đẹp và chất lượng', 1, NULL),
@@ -137,4 +135,7 @@ INSERT INTO comments VALUES
 (9, 8, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Màu rất nổi bật, có thể phối với nhiều trang phục', 1, NULL),
 (10, 4, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sao? mình sẽ mua thử xem sao', 1, 9);
 
-
+/* Le Minh chinh sua o day */
+INSERT INTO userLikeComment VALUES
+/* (comment ID, user ID) */
+(1,2),
