@@ -138,4 +138,5 @@ INSERT INTO comments VALUES
 /* Le Minh chinh sua o day */
 INSERT INTO userLikeComment VALUES
 /* (comment ID, user ID) */
+/* comment ID tu 1->10, user ID tu 1->11 */
 (1,2),
