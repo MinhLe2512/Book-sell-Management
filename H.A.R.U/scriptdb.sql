@@ -108,7 +108,7 @@ INSERT INTO ChiTietSp VALUES
 (12, N'Vòng tay cá tính nhiều màu', N'Thảo My', 'HM012', 10000, NULL, 'https://drive.google.com/file/d/1vQqug7Q3WET1eg1mg24pa0wrTGx59NVJ/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1),
 (13, N'Vòng tay huyền bí', N'Quốc Dũng', 'HM013', 20000, NULL, 'https://drive.google.com/file/d/1RMt5hZ_iPcAqOJiLl5UHBv6NavOJtgdW/view?usp=sharing', NULL, 8, NULL, N'Vải', NULL, 1);
 
-
+/* Hieu Nghia chinh sua tai day */
 INSERT INTO users VALUES
 (1, 'admin', 1, 'https://drive.google.com/file/d/1U48UvMcrzng54WSPEs4ALet3QzU-YArn/view?usp=sharing', 'admin', N'227 Nguyễn Văn Cừ, Phường 4 Quận 5, TPHCM', '077621456', 'harucontact@gmail.com', NULL, NULL, 1),
 (2, 'luthevy', 1, 'https://drive.google.com/file/d/1ErhC9hbPr0wSuVJIR8pH6jq8GuBPA2cO/view?usp=sharing', 'vydeptrai', N'78D Cao Văn Lầu, Phường 2 Quận 6, TPHCM', '0773826118', 'luthevy2001@gmail.com', NULL, '2001-03-17 16:59:04', 1),
@@ -117,7 +117,9 @@ INSERT INTO users VALUES
 (5, 'hieunghia', 1, NULL, 'hnghia2001', N'45/8 Nguyễn Văn Cừ, Quận 5', '0795566412', 'hieunghia2001@gmail.com', NULL, NULL, NULL),
 (6, 'xuanmike', 0, NULL, 'xuanmai', N'124A Lê Đại Hành, Quận 11', '0833232648', 'bexuanmai@gmail.com', NULL, '2005-08-09 15:45:04', NULL),
 (7, 'tranthutrang', 0, NULL, 'trangtran', N'23/4 Lê Đại Hành, Quận 11', '08439653125', 'trangxcute@gmail.com', NULL, NULL, NULL),
-(8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL);
+(8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL), /* Cau lam mau */
+/*stt, ten, gioi tinh (nam = 1, nu = 0)*/
+
 
 INSERT INTO comments VALUES
 (1, 2, 1, CAST(N'2021-08-18 22:22:46' AS DateTime), 5, N'Rất đẹp và chất lượng', 1, NULL),
