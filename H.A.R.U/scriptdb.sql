@@ -164,3 +164,8 @@ INSERT INTO userLikeComment VALUES
 (6,1),
 (3,5),
 (3,1),
+(7,5),
+(6,5),
+(6,3),
+(7,3),
+(7,8),
