@@ -1,0 +1,77 @@
+﻿.bill_info {
+    width: 550px;
+    text-align: left;
+    padding-left: 10px;
+    border: 0px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 10px 0px 80px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #bbbaba;
+}
+
+.title {
+    font-size: 15pt;
+    margin-top: 20px;
+    color:blue;
+    text-decoration:underline;
+}
+.red {
+    color: #990000;
+    font-size: 11pt;
+}
+.bill_info table {
+    width: 100%;
+}
+
+.bill_info table td input[type="text"],
+#customer_phone,
+.bill_info table td textarea,
+.bill_info table td input[type="number"] {
+    background-color: #f0f0f0;
+    outline: none;
+    border: 1px solid #bababa;
+    padding: 10px;
+    width: 400px;
+}
+
+.bill_info table td textarea {
+    height: 50px;
+    resize: none;
+}
+
+div.bill_info table td {
+    padding-top: 15px;
+    font-size: 11pt;
+}
+
+.bill_info input[type="submit"] {
+    width: calc((100% - 6%)/2);
+    float: left;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+.CODpayment {
+    margin-right: 5px;
+    cursor: pointer;
+    /*//background: -webkit-linear-gradient(top,#288ad6,#0e74c2);*/
+    background-color: #3680e6;
+    outline:none;
+}
+.CODpayment:hover {
+    background-color: #2c5aef;
+}
+.ONLpayment {
+    cursor: pointer;
+    outline:none;
+    background-color: #663399;
+}
+.ONLpayment:hover {
+    background: #5d04b5;
+}

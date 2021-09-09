@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồng hồ</title>
+    <link rel="stylesheet" href="./dongho.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="wrapper_header" style="width:92vw;max-width: 1257px;margin: 0 auto;">
+            <div class="logo fl-left">
+                <a href=""><img src="./img/logo4.png" /></a><br/>
+            </div>
+
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <!--cái checkbox này ko được hiển thị, chỉ có mục đích viết css cho menu responsive-->
+            <label class="menu-icon" for="menu-btn"> <!--cái này tạo menu-ion có 3 thanh ngang khi màn hình nhỏ - click 1 lần vào cái này thì thẻ input phía trên được checked, 1 lần nữa thì unchecked-->
+            <span class="navicon"></span>
+        </label>
+            <ul class="menu">
+                <li class="search">
+                    <div class="fl-left">
+                        <input class="t" type="text" placeholder="   Tìm kiếm sản phẩm..." name="" /><input class="t1" type="submit" value="Tìm kiếm" name="" />
+                    </div>
+                </li>
+                <li><a href="#">Giỏ hàng(0)</a></li>
+                <li class="login">
+                    <ul>
+                        <li class="logined">
+                            <a href="#"><span>Đăng nhập</span></a>
+                            <ul class="sub-dh">
+                                <li><a href="">Đăng nhập</a></li>
+                                <li><a href="">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="systemshop">
+                        <a href="#" title="Hệ thống cửa hàng">Hệ thống cửa hàng</a>
+                        <a href="#" title="Hệ thống cửa hàng" class="showroom">(100)Showroom</a>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </header>
+
+    <div class="empty"></div>
+    <!--  -->
+    <!-- ==============menu thứ 2================ -->
+    <div class="wraper" style="background-color: white;">
+        <div class="container-fluid" style="width:92vw;max-width: 1257px;">
+            <div id="menu-top">
+                <div class="dropdown-menu item-menu-top2">
+                    <div id="menu2" class="fl-left" align="center">
+                        <ul>
+                            <li>
+                                <a class="dmsp" href="#">
+                                    <div class="fl-left">
+                                        <div class="space"></div>
+                                        <div class="icon-dmsp"></div>
+                                        <div class="icon-dmsp"></div>
+                                        <div class="icon-dmsp"></div>
+                                    </div>
+                                    <span>DANH MỤC SẢN PHẨM</span>
+                                </a>
+                                <ul class="sub-menu2">
+                                    <li><a href="#" title="Đồng hồ chính hãng">Đồng hồ Epos Swiss</a></li><br/>
+                                    <li><a href="" title="Đồng hồ nam">Đồng hồ Atlantic Swiss</a></li><br/>
+                                    <li><a href="#" title="Đồng hồ nữ">Đồng hồ Diamond D</a></li><br/>
+                                    <li><a href="#" title="Đồng hồ đôi">Đồng hồ Aries Gold</a></li><br/>
+                                    <li><a href="#" title="Phụ kiện đồng hồ">Đồng hồ Jacques Lemans</a></li>
+                                    <li><a href="#" title="Phụ kiện đồng hồ">Đồng hồ QQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh fl-left"><a href="" title="Đồng hồ">ĐỒNG HỒ</a></div>
+                    <div class="dmdhi fl-left">
+                        <a href="#"><img title="Đồng hồ" src="img/Capture2.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh fl-left"><a href="#" title="Phụ kiện đồng hồ">PHỤ KIỆN ĐỒNG HỒ</a></div>
+                    <div class="dmdhi fl-left">
+                        <a href="#"><img title="Phụ kiện đồng hồ" src="img/Capture3.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh fl-left"><a href="BaoCao5.html" title="Khuyến mãi">KHUYẾN MÃI</a></div>
+                    <div class="dmdhi fl-left">
+                        <a href="#"><img title="Đấu giá" src="img/Capture4.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2  menu-top2-end">
+                    <div class="dmdhi fl-left tragop">
+                        <a href=""><img title="Trả góp" src="img/Capture7.PNG" /></a>
+                    </div>
+                    <div class="dmhitt fl-left tintuc">
+                        <a href=""><img title="Tin tức - Sự kiện" src="img/Capture8.PNG" height="35" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================end menu 2 ========================= -->
+    <!-- ====================content========================== -->
+    <div class="watch_content">
+        <div class="side_left_menu">
+            <div class="side_left_menu_title">
+                Lựa chọn
+            </div>
+            <div class="side_left_menu_content">
+                <div class="side_left_menu_wrap-content">
+                    <div class="side_left_menu_list">
+                        <div>
+                            <p>THƯƠNG HIỆU</p>
+                        </div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ Epos Swiss</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ Atlantic Swiss</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ Diamond D</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ Aries Gold</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ Jacques Lemans</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ QQ</span></div><br/></div>
+
+                    </div>
+                    <div class=" side_left_menu_list">
+                        <div>
+                            <p>DÀNH CHO</p>
+                        </div>
+                        <div class="component_role_watch">
+                            <div class=""><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ nam</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ nữ</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Đồng hồ đôi</span></div>
+                        </div>
+
+                    </div>
+                    <div class=" side_left_menu_list">
+                        <div>
+                            <p>KHOẢNG GIÁ</p>
+                        </div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Giá < 2 triệu</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Giá từ 2 - 5 triệu</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Giá từ 5 - 10 triệu</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Giá từ 10 - 20 triệu</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Giá > 20 triệu</span></div><br/></div>
+
+                    </div>
+                    <div class=" side_left_menu_list">
+                        <div>
+                            <p>LOẠI DÂY</p>
+                        </div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Dây da</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Thép không gỉ</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Mạ vàng</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Mạ đồng</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Cao su</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Dây nhựa</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Dây vải du</span></div><br/></div>
+                        <div class="component_role_watch">
+                            <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                            <div><span>Hợp kim thép</span></div><br/></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-list_watch_content">
+            <div class="navigation_content_watch">
+                <a href="#"><span>Trang chủ</span></a>
+                <b>/</b>
+                <a href="#"><span>Đồng hồ</span></a>
+            </div>
+            <div class="wrap_menu_top_of_content">
+                <div class="item_menu_top_content">
+                    <div class="checkbox"><input type="checkbox" name="" value="" /></div>
+                    <div class=""><span>Giá dưới 2 triệu</span></div><br/>
+                </div>
+                <div class="item_menu_top_content">
+                    <div class=""><input type="checkbox" name="" value="" /></div>
+                    <div class=""><span>Giá từ 2 - 5 triệu</span></div><br/>
+                </div>
+                <div class="item_menu_top_content">
+                    <div class=""><input type="checkbox" name="" value="" /></div>
+                    <div class=""><span>Giá từ 5 - 10 triệu</span></div><br/>
+                </div>
+                <div class="item_menu_top_content">
+                    <div class=""><input type="checkbox" name="" value="" /></div>
+                    <div class=""><span>Giá từ 10 - 20 triệu</span></div><br/>
+                </div>
+                <div class="item_menu_top_content">
+                    <div class=""><input type="checkbox" name="" value="" /></div>
+                    <div class=""><span>Giá trên 20 triệu</span></div><br/>
+                </div>
+            </div>
+            <div class="container_content_watchs">
+                <div class="wrap_item_watch">
+                    <a href=""><img width="55%" src="img/765176504_đồng-hô-chính-hãng12.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-50354.45.21</p>
+                    </a>
+                    <input type="button" value="13.980.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/1847097644_đồng-hồ-chính-hãng26.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-64352.41.61</p>
+                    </a>
+                    <input type="button" value="14.160.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/1790107421_đồng-hồ-chính-hãng17.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-64352.41.21</p>
+                    </a>
+                    <input type="button" value="16.370.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/1809432122_đồng-hồ-chính-hãng82.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-64456.45.31</p>
+                    </a>
+                    <input type="button" value="18.370.000 đ" />
+                </div>
+
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/622576970_đồng-hồ-chính-hãng124.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-64756.45.21</p>
+                    </a>
+                    <input type="button" value="20.360.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/1758061187_đồng-hồ-chính-hãng162.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-61756.43.61G</p>
+                    </a>
+                    <input type="button" value="22.320.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/1623017984_ĐỒNG-HỒ-CHÍNH-HÃNG-7.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-63760.45.21</p>
+                    </a>
+                    <input type="button" value="25.760.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/301102054_st1.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-61756.43.21G</p>
+                    </a>
+                    <input type="button" value="27.750.000 đ" />
+                </div>
+
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/652432764_đồng-hô-chính-hãng28.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-53751.41.21G</p>
+                    </a>
+                    <input type="button" value="28.680.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/330108915_đồng-hô-chính-hãng14.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-52752.41.25R</p>
+                    </a>
+                    <input type="button" value="30.490.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/647824030_đồng-hồ-chính-hãng4.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-50756.43.21G</p>
+                    </a>
+                    <input type="button" value="35.210.000 đ" />
+                </div>
+                <div class="wrap_item_watch">
+                    <a href="#"><img width="55%" src="img/273783221_đồng-hồ-chính-hãng5.jpg" /></a><br/>
+                    <a href="#">
+                        <p>Đồng hồ Atlantic Swiss AT-53757.41.21</p>
+                    </a>
+                    <input type="button" value="39.390.000 đ" />
+                </div>
+            </div>
+            <div class="btn-Add">
+                <a href="#"><input type="button" value="Xem thêm +" /></a>
+            </div>
+        </div>
+    </div>
+    <!-- =====================end content===================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ==============================Footer =======================-->
+    <footer style="width:100%; height: auto; background-color: #352750; margin-top: 30px;">
+        <div class="wrapper footer_content" style="width:92vw;margin:0 auto;max-width: 1257px;">
+            <div class="" id="menuft">
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>THÔNG TIN CHUNG</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">Giới thiệu chung</a></li>
+                            <li><a href="#">Kênh tuyển dụng</a></li>
+                            <li><a href="#">Tin tức-Sự kiện</a></li>
+                            <li><a href="#">Hệ thống cửa hàng</a></li>
+                            <li><a href="#">Cộng đồng khách</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>HỖ TRỢ KHÁCH HÀNG</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">1.Chính sách bảo hàng</a></li>
+                            <li><a href="#">2.Chính sách đổi hàng</a></li>
+                            <li><a href="#">3.Chính sách bảo mật</a></li>
+                            <li><a href="#">4.Chính sách vận chuyển</a></li>
+                            <li><a href="#">5.Hướng dẫn thanh toán</a></li>
+                            <li><a href="#">6.Hướng dẫn mua hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>HƯỚNG DẪN VÀ TƯ VẤN</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">Góc hỏi đáp</a></li>
+                            <li><a href="#">Chứng nhận thương hiệu</a></li>
+                            <li><a href="#">Tin tức-Sự kiện</a></li>
+                            <li><a href="#">Hệ thống cửa hàng</a></li>
+                            <li><a href="#">Báo chí về ALT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img_foot">
+                    <div class="contact-online">
+                        <div class="footer_content1"><span>HỆ THỐNG CỬA HÀNG</span>
+                            <ul class="sub-menu1 ">
+                                <li>
+                                    <a href="#"><img title="Hệ thống cửa hàng" width="250px" src="img/photo-1-1470836862788.jpg" /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                         Xem hệ thống cửa hàng
+                                        </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_content1"><span>FANPAGE CỦA CHÚNG TÔI</span>
+                            <ul class="sub-menu1">
+                                <li>
+                                    <a href="#"><img width="200px" src="img/5-buoc-len-ke-hoach-xay-dung-fanpage-2.jpg" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </footer>
+    <div class="day" style="width:100%; height: auto; background-color: #241244;">
+        <div class="wrapper" style="width:92vw;margin:0 auto;max-width: 1257px;">
+            <div class="day_content">
+
+                <div class="fl-left day_content1">
+                    <a href=""><img src="img/logo4.png" style="width: 200px;margin-top: 32px;" /></a>
+                </div>
+
+                <div class="day_content2">
+                    <div class="day_center"><a href="#">CÔNG TY CỔ PHẦN TRỰC TUYẾN ALT</a>
+                        <p>Địa chỉ: 41 Phố ABC, Phường. XYZ, Quận. HAIBABON, NAMSAUBAY</p>
+                        <p>Hotline: 1800 XXXX</p>
+                        <p>Email: info@alt.vn</p>
+                        <p>Website: https://alt.vn</p>
+                        <font color="#F9F9F9">ĐỒNG HỒ NAM, ĐỒ HỒ THỤY SỸ</font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+
+</body>
+
+</html>

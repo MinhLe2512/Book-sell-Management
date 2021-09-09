@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mẫu chung</title>
+    <link rel="stylesheet" href="./headerfooter.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="wrapper_header" style="width:92vw;max-width: 1257px;margin: 0 auto;">
+            <div class="logo ">
+                <a href="/"><img src="./img/logo4.png" /></a><br/>
+            </div>
+
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <!--cái checkbox này ko được hiển thị, chỉ có mục đích viết css cho menu responsive-->
+            <label class="menu-icon" for="menu-btn"> <!--cái này tạo menu-ion có 3 thanh ngang khi màn hình nhỏ - click 1 lần vào cái này thì thẻ input phía trên được checked, 1 lần nữa thì unchecked-->
+            <span class="navicon"></span>
+             </label>
+            <ul class="menu">
+                <li class="search">
+                    <div class="fl-left">
+                        <input class="t" type="text" placeholder="   Tìm kiếm sản phẩm..." name="" /><input class="t1" type="submit" value="Tìm kiếm" name="" />
+                    </div>
+                </li>
+                <li><a href="/GioHang.aspx">Giỏ hàng(<asp:Label ID="TotalWatchBuy" runat="server" Text="0"></asp:Label>)</a></li>               
+                <li>
+                    <div class="systemshop">
+                        <a href="#" title="Hệ thống cửa hàng">Hệ thống cửa hàng</a>
+                        <a href="#" title="Hệ thống cửa hàng" class="showroom">(100)Showroom</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="loginLogout" id="loginLogout" runat="server">
+                        <a href="">Đăng nhập</a><span id ="chia">|</span><a href =""> Đăng ký </a> 
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="empty"></div>
+    <!--  -->
+    <!-- ==============menu thứ 2================ -->
+    <div class="wraper" style="background-color: white;">
+        <div class="container-fluid" style="width:92vw;max-width: 1257px;">
+            <div id="menu-top">
+                <div class="dropdown-menu item-menu-top2">
+                    <div id="menu2" class="fl-left" align="center">
+                        <ul>
+                            <li>
+                                <a class="dmsp" href="#">
+                                    <div class="fl-left">
+                                        <div class="space"></div>
+                                        <div class="icon-dmsp"></div>
+                                        <div class="icon-dmsp"></div>
+                                        <div class="icon-dmsp"></div>
+                                    </div>
+                                    <span>DANH MỤC SẢN PHẨM</span>
+                                </a>
+                                <ul class="sub-menu2">
+                                    <li><a href="#" title="Đồng hồ chính hãng">Đồng hồ Epos Swiss</a></li><br/>
+                                    <li><a href="" title="Đồng hồ nam">Đồng hồ Atlantic Swiss</a></li><br/>
+                                    <li><a href="#" title="Đồng hồ nữ">Đồng hồ Diamond D</a></li><br/>
+                                    <li><a href="#" title="Đồng hồ đôi">Đồng hồ Aries Gold</a></li><br/>
+                                    <li><a href="#" title="Phụ kiện đồng hồ">Đồng hồ Jacques Lemans</a></li>
+                                    <li><a href="#" title="Phụ kiện đồng hồ">Đồng hồ QQ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh fl-left"><a href="" title="Đồng hồ">ĐỒNG HỒ</a></div>
+                    <div class="dmdhi fl-left">
+                        <a href="#"><img title="Đồng hồ" src="img/Capture2.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh fl-left"><a href="#" title="Phụ kiện đồng hồ">PHỤ KIỆN ĐỒNG HỒ</a></div>
+                    <div class="dmdhi fl-left">
+                        <a href="#"><img title="Phụ kiện đồng hồ" src="img/Capture3.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh fl-left"><a href="" title="Khuyến mãi">KHUYẾN MÃI</a></div>
+                    <div class="dmdhi fl-left">
+                        <a href="#"><img title="Đấu giá" src="img/Capture4.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2  menu-top2-end">
+                    <div class="dmdhi fl-left tragop">
+                        <a href=""><img title="Trả góp" src="img/Capture7.PNG" /></a>
+                    </div>
+                    <div class="dmhitt fl-left tintuc">
+                        <a href=""><img title="Tin tức - Sự kiện" src="img/Capture8.PNG" height="35" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ================end menu 2 ========================= -->
+
+
+    <!-- ==============================Footer =======================-->
+    <footer style="width:100%; height: auto; background-color: #352750; margin-top: 30px;">
+        <div class="wrapper footer_content" style="width:92vw;margin:0 auto;max-width: 1257px;">
+            <div class="" id="menuft">
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>THÔNG TIN CHUNG</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">Giới thiệu chung</a></li>
+                            <li><a href="#">Kênh tuyển dụng</a></li>
+                            <li><a href="#">Tin tức-Sự kiện</a></li>
+                            <li><a href="#">Hệ thống cửa hàng</a></li>
+                            <li><a href="#">Cộng đồng khách</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>HỖ TRỢ KHÁCH HÀNG</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">1.Chính sách bảo hàng</a></li>
+                            <li><a href="#">2.Chính sách đổi hàng</a></li>
+                            <li><a href="#">3.Chính sách bảo mật</a></li>
+                            <li><a href="#">4.Chính sách vận chuyển</a></li>
+                            <li><a href="#">5.Hướng dẫn thanh toán</a></li>
+                            <li><a href="#">6.Hướng dẫn mua hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>HƯỚNG DẪN VÀ TƯ VẤN</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">Góc hỏi đáp</a></li>
+                            <li><a href="#">Chứng nhận thương hiệu</a></li>
+                            <li><a href="#">Tin tức-Sự kiện</a></li>
+                            <li><a href="#">Hệ thống cửa hàng</a></li>
+                            <li><a href="#">Báo chí về ALT</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img_foot">
+                    <div class="contact-online">
+                        <div class="footer_content1"><span>HỆ THỐNG CỬA HÀNG</span>
+                            <ul class="sub-menu1 ">
+                                <li>
+                                    <a href="#"><img title="Hệ thống cửa hàng" width="250px" src="img/photo-1-1470836862788.jpg" /></a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                         Xem hệ thống cửa hàng
+                                        </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_content1"><span>FANPAGE CỦA CHÚNG TÔI</span>
+                            <ul class="sub-menu1">
+                                <li>
+                                    <a href="#"><img width="200px" src="img/5-buoc-len-ke-hoach-xay-dung-fanpage-2.jpg" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </footer>
+    <div class="day" style="width:100%; height: auto; background-color: #241244;">
+        <div class="wrapper" style="width:92vw;margin:0 auto;max-width: 1257px;">
+            <div class="day_content">
+
+                <div class="fl-left day_content1">
+                    <a href=""><img src="img/logo4.png" style="width: 200px;margin-top: 32px;" /></a>
+                </div>
+
+                <div class="day_content2">
+                    <div class="day_center"><a href="#">CÔNG TY CỔ PHẦN TRỰC TUYẾN ALT</a>
+                        <p>Địa chỉ: 41 Phố ABC, Phường. XYZ, Quận. HAIBABON, NAMSAUBAY</p>
+                        <p>Hotline: 1800 XXXX</p>
+                        <p>Email: info@alt.vn</p>
+                        <p>Website: https://alt.vn</p>
+                        <font color="#F9F9F9">ĐỒNG HỒ NAM, ĐỒ HỒ THỤY SỸ</font>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+
+</body>
+
+</html>

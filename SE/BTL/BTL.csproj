@@ -1,0 +1,323 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C41A1629-8D5B-4464-8AF6-2B21581AA580}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BTL</RootNamespace>
+    <AssemblyName>BTL</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeTextBox, Version=3.3.0.22914, Culture=neutral, PublicKeyToken=5962a4e684a48b87, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>E:\Hoc_asp.net\freeTextBox\Framework-4-0\FreeTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="MySql.Data, Version=8.0.25.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 8.0.25\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="administrator.aspx" />
+    <Content Include="admin\adminControl.ascx" />
+    <Content Include="admin\DonDatHang\donhang.ascx" />
+    <Content Include="admin\DonDatHang\ProcessDonHang.aspx" />
+    <Content Include="admin\DongHo\DHCategory.ascx" />
+    <Content Include="admin\DongHo\DHControl.ascx" />
+    <Content Include="admin\DongHo\DHDetail.ascx" />
+    <Content Include="admin\login.ascx" />
+    <Content Include="admin\Users\UserAdmin.ascx" />
+    <Content Include="ChiTietWatch.aspx" />
+    <Content Include="DangKy.aspx" />
+    <Content Include="DangNhap.aspx" />
+    <Content Include="DangXuat.aspx" />
+    <Content Include="DongHo.aspx" />
+    <Content Include="GioHang.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="html\bc.css" />
+    <Content Include="html\bc.html" />
+    <Content Include="html\bc2.css" />
+    <Content Include="html\bc2.html" />
+    <Content Include="html\template.css" />
+    <Content Include="html\template.html" />
+    <Content Include="images\a1.jpg" />
+    <Content Include="images\Capture2.PNG" />
+    <Content Include="images\Capture3.PNG" />
+    <Content Include="images\Capture4.PNG" />
+    <Content Include="images\Capture7.PNG" />
+    <Content Include="images\Capture8.PNG" />
+    <Content Include="images\icon-acc.png" />
+    <Content Include="images\logo4.png" />
+    <Content Include="style\administrator.css" />
+    <Content Include="style\ChiTietWatch.css" />
+    <Content Include="style\DangNhap.css" />
+    <Content Include="style\DanhKy.css" />
+    <Content Include="style\DongHo.css" />
+    <Content Include="style\GioHang.css" />
+    <Content Include="style\ThanhToan.css" />
+    <Content Include="style\TrangChu.css" />
+    <Content Include="style\HeaderFooter.css" />
+    <Content Include="ThanhToan.aspx" />
+    <Content Include="TrangChu.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="administrator.aspx.cs">
+      <DependentUpon>administrator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="administrator.aspx.designer.cs">
+      <DependentUpon>administrator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\adminControl.ascx.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\adminControl.ascx.designer.cs">
+      <DependentUpon>adminControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\DonDatHang\donhang.ascx.cs">
+      <DependentUpon>donhang.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\DonDatHang\donhang.ascx.designer.cs">
+      <DependentUpon>donhang.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\DonDatHang\ProcessDonHang.aspx.cs">
+      <DependentUpon>ProcessDonHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\DonDatHang\ProcessDonHang.aspx.designer.cs">
+      <DependentUpon>ProcessDonHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\DongHo\DHCategory.ascx.cs">
+      <DependentUpon>DHCategory.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\DongHo\DHCategory.ascx.designer.cs">
+      <DependentUpon>DHCategory.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\DongHo\DHControl.ascx.cs">
+      <DependentUpon>DHControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\DongHo\DHControl.ascx.designer.cs">
+      <DependentUpon>DHControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\DongHo\DHDetail.ascx.cs">
+      <DependentUpon>DHDetail.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\DongHo\DHDetail.ascx.designer.cs">
+      <DependentUpon>DHDetail.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Users\UserAdmin.ascx.cs">
+      <DependentUpon>UserAdmin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Users\UserAdmin.ascx.designer.cs">
+      <DependentUpon>UserAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="ChiTietWatch.aspx.cs">
+      <DependentUpon>ChiTietWatch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChiTietWatch.aspx.designer.cs">
+      <DependentUpon>ChiTietWatch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.aspx.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangNhap.aspx.designer.cs">
+      <DependentUpon>DangNhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangXuat.aspx.cs">
+      <DependentUpon>DangXuat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangXuat.aspx.designer.cs">
+      <DependentUpon>DangXuat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DongHo.aspx.cs">
+      <DependentUpon>DongHo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DongHo.aspx.designer.cs">
+      <DependentUpon>DongHo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GioHang.aspx.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GioHang.aspx.designer.cs">
+      <DependentUpon>GioHang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clsGioHang.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderFooter.Master.cs">
+      <DependentUpon>HeaderFooter.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderFooter.Master.designer.cs">
+      <DependentUpon>HeaderFooter.Master</DependentUpon>
+    </Compile>
+    <Compile Include="KetNoiMySQL\clsComment.cs" />
+    <Compile Include="KetNoiMySQL\clsDHforDisplay.cs" />
+    <Compile Include="KetNoiMySQL\clsDongHo.cs" />
+    <Compile Include="KetNoiMySQL\clsDonHang.cs" />
+    <Compile Include="KetNoiMySQL\connectSQL.cs" />
+    <Compile Include="KetNoiMySQL\controlAdmin.cs" />
+    <Compile Include="KetNoiMySQL\userKhachHang.cs" />
+    <Compile Include="KetNoiSQL\clsComment.cs" />
+    <Compile Include="KetNoiSQL\clsDHforDisplay.cs" />
+    <Compile Include="KetNoiSQL\clsDongHo.cs" />
+    <Compile Include="KetNoiSQL\clsDonHang.cs" />
+    <Compile Include="KetNoiSQL\connectSQL.cs" />
+    <Compile Include="KetNoiSQL\controlAdmin.cs" />
+    <Compile Include="KetNoiSQL\userKhachHang.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThanhToan.aspx.cs">
+      <DependentUpon>ThanhToan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ThanhToan.aspx.designer.cs">
+      <DependentUpon>ThanhToan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TrangChu.aspx.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TrangChu.aspx.designer.cs">
+      <DependentUpon>TrangChu.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HeaderFooter.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57618</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57618/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

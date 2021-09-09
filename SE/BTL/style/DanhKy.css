@@ -1,0 +1,183 @@
+﻿.wrap_sigUp {
+    height: 800px;
+    margin-bottom: -30px;
+}
+.wrapper-dangky {
+    height: 700px;
+    background-color: white;
+    border-radius: 6px;
+}
+.wrapp-itemLeft {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 400px;
+}
+
+    .wrapp-itemLeft span {
+        font-size: 200%;
+    }
+
+    .wrapp-itemLeft p {
+        font-size: 120%;
+    }
+
+.wrapp-itemRight {
+    border-top: 10px solid #F8F8F8;
+    border-left: 10px solid #F8F8F8;
+    border-right: 10px solid #F8F8F8;
+    width: 595px;
+    height: 690px;
+}
+
+.Sigup-itemRight-title {
+    height: 50px;
+    width: 595px;
+    border-bottom: 1px solid brown;
+}
+
+.Sigup-title {
+    padding-top: 10px;
+    width: 180px;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.Sigup-title1 {
+    border-bottom: 5px solid brown;
+    height: 35px;
+}
+.input {
+    border: 1px solid #d4d4d4;
+}
+.nes {
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+    .nes .input {
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+        margin-left: 48px;
+    }
+
+.nes1 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+    .nes1 .input {
+        margin-left: 64px;
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+    }
+
+.nes2 .input {
+    height: 34px;
+    width: 120px;
+    border-radius: 0px 3px 3px 0px;
+    margin-left: 0px;
+    background-color: chartreuse;
+}
+
+.nes3 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+    .nes3 .input {
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+        margin-left: 10px;
+    }
+
+.nes4 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+    .nes4 .input {
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+        margin-left: 55px;
+    }
+.nes4-1 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+    .nes4-1 .input {
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+        margin-left: 25px;
+    }
+.nes5 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+    .nes5 .input {
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+        margin-left: 28px;
+    }
+
+.nes6 {
+    padding-top: 15px;
+    padding-left: 25px;
+    display: flex;
+}
+    .nes6 span {
+        margin-right: 30px;
+    }
+    .nes6 .input {
+        /*height: 25px;
+        width: 25px;*/
+        margin-left: 35px;
+    }
+
+.nes7 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+    .nes7 .input {
+        height: 30px;
+        width: 400px;
+        margin-left: 24px;
+        border-radius: 3px;
+    }
+
+.nes8 {
+    padding-top: 15px;
+    padding-left: 120px;
+}
+
+.nes8 .input {
+        width: 25px;
+        height: 25px;
+    }
+
+.nes9 {
+    padding-top: 15px;
+    padding-left: 120px;
+}
+a.btnCreateAccount {
+    width: 400px;
+    height: 40px;
+    padding-top: 12px;
+    border-radius: 5px;
+    background-color: #fdd835;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+.itemSigup-Dangnhap {
+    color: black;
+}

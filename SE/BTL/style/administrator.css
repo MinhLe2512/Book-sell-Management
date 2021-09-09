@@ -1,0 +1,519 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+body {
+}
+#containerPlaceAdministrative {
+    /*width: 99vw;*/
+    margin: 0 auto;
+    min-width: 1325px;
+    /*overflow: hidden;*/
+    /*overflow-x: hidden;*/
+}
+
+div#login {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #b3b3b3;
+    width: 400px;
+    box-shadow: 0px 0px 20px #949494;
+    padding-top:15px;
+}
+h1#welcomeToLoginAdmintrative {
+    color: #3232fd;
+    margin-bottom: 20px;
+    text-align:center;
+}
+div#login div {
+    margin-bottom: 10px;
+}
+div#login .regionUserName, div#login .regionPassword {
+    display: flex;
+    flex-direction: row;
+    width: 274px;
+    justify-content: space-between;
+}
+div#login .buttonlogin a {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+div#login .buttonlogin {
+    width: 80px;
+    height: 31px;
+    background-color: #38c7de;
+}
+
+/*.wrapper {
+    display: grid;
+    grid-template-columns: 16% 80%;
+    margin-left: 20px;
+}*/
+.menu_side_left {
+    width: 200px;
+    margin-right: 20px;
+    height: 100%;
+    background: #2f79c5;
+    position: fixed;
+    box-shadow: 5px 0px 10px #b7b7b7;
+    z-index: 6;
+}
+.nameAminLogined {
+    display: flex;
+    flex-direction: row;
+}
+ .nameAminLogined .warp-pictureAdmin{
+     width:50px;
+     height:50px;
+     border-radius:50%;
+     overflow:hidden;
+ }
+    .nameAminLogined .warp-pictureAdmin img{
+        width:100%;
+        height:100%;
+    }
+    .nameAminLogined p {
+        margin-left: 8px;
+        color: green;
+        font-size: 20px;
+        margin-top: 12px;
+    }
+.link_choose a {
+   
+    background-color: #10c12e;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.wrapperWatch {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size:20px;
+}
+.wrapAminLogined {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: flex-end;
+    background-color: white;
+    padding: 10px 0px;
+    box-shadow: 0px 3px 7px #d2cfcf;
+    width: 100%;
+    position: fixed;
+    margin-left: -225px;
+    /* margin-right: 13px; */
+    /* padding-right: 22px; */
+    z-index: 3;
+    /* margin: 15px 0px; */
+    /* float: right; */
+}
+div#contain_paging {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 30px 0px;
+}
+
+    div#contain_paging a {
+        display: inline-block !important;
+        padding: 7px 12px !important;
+        margin: 0px 5px !important;
+        background-color: white !important;
+        border: 1px solid #d6d6d6 !important;
+        font-size: 14px !important;
+    }
+.lnk {
+    width: 30px;
+    outline:none;
+}
+div#logo_adin {
+    width: 90%;
+    padding-top: 15px;
+    /* padding-left: 8px; */
+    margin: 0 auto;
+    /* padding-right: 8px; */
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+}
+.wrapperWatch {
+    display: flex;
+    width: 340px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+ul#menu {
+    margin-top: 129px;
+}
+ul#menu li:hover {
+    background-color: #2a2af5;
+}
+#tblEditDH input[type="text"] {
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid #828282;
+    padding-left: 10px;
+    font-size: 15px;
+    outline: none;
+}
+ul#menu li {
+    height: 30px;
+    align-items: center;
+    border-bottom: 1px solid #f9f5f5;
+    /*background-color: #44bff3;*/
+}
+ul#menu li a {
+    color: white;
+    font-size: 18px;
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.contain_err li {
+    margin-bottom: 5px;
+    font-family: sans-serif;
+}
+.titile_watchs {
+    font-family: tahoma;
+    font-size: 20px;
+    color: #fd8b01;
+    margin-bottom: 15px;
+}
+
+.btn_addNew {
+    width: 100px;
+    height: 30px;
+    background-color: #5656ff;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    float: left;
+    margin-right: 50px;
+}
+.btn_addNew a {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding-top: 6px;
+}
+table.tblDisplay, .tblDisplay th, .tblDisplay td {
+    border: 1px solid #797979;
+    border-collapse: collapse;
+}
+
+.tblDisplay tr {
+    height: 31px;
+    text-align: center;
+}
+.tblDisplay tr:first-child {
+    background-color: #7abaff;
+    color: black;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+table.tblDisplay tr:first-child td {
+    border: none;
+}
+.tblDisplay tr:not(.tbl_tr_title):hover {
+    background-color: #C3E6CB;
+}
+tr.tr_tblAddNew {
+    display: block;
+    border-top: 1px solid #d4d2d2;
+    padding: 10px 0px;
+    width: 834px;
+}
+input.btnUpdateData {
+    /* width: 120px; */
+    /* height: 40px; */
+    padding: 5px 10px;
+    color: white;
+    background-color: #3a91f3;
+    cursor: pointer;
+    font-family: tahoma;
+    outline: none;
+    border: none;
+    font-size: 22px;
+}
+
+
+td.td_CateDH_title_addNew {
+    width: 120px;
+}
+.drpWatchCategory {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.drpWatchCategoryToAdd {
+    margin-bottom: 0px;
+}
+/**/
+.rptItem {
+    background-color: #F2F2F2;
+}
+.rptAlt {
+    background-color: white;
+}
+
+/*==========css cho phần user control với query string là user admin=============*/
+/*.wrap_users {
+    margin-top: 84px;
+}*/
+.DieuKhienAdmin {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 420px;
+padding-bottom: 15px;
+}
+
+
+.DieuKhienAdmin a {
+    
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 6px;
+    padding:5px 10px;
+    background-color: #10c12e;
+    border-radius: 5px;
+}
+.tblUsersAdmin{
+    font-family:sans-serif;
+}
+table.tblUsersAdmin.tblUsersChangePass .label_field {
+    width: 185px;
+}
+.errorInput {
+    color: red;
+    font-family: tahoma;
+}
+.tblUsersAdmin tr {
+    display: block;
+    margin-bottom: 10px;
+}
+table.tblUsersAdmin input[type="text"], table.tblUsersAdmin input[type="password"] {
+    height: 25px;
+    outline: none;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #7d7d7d;
+    padding-left: 10px;
+    font-size: 15px;
+}
+table.tblUsersAdmin select {
+    width: 65px;
+    height: 25px;
+    outline: none;
+}
+.avatar_add_view, .avatar_change_view {
+    display: none;
+}
+.imgViewDH {
+    display: none;
+    max-width: 100px;
+    max-height: 150px;
+}
+/*don hang*/
+table#tblDonHang, table#tblDonHang th, table#tblDonHang td {
+    border: 1px solid #b9b9b9;
+    border-collapse: collapse;
+}
+
+    table#tblDonHang td {
+        padding: 7px;
+    }
+
+tr#th_donHang {
+    background-color: #21252A;
+    color: white;
+}
+
+    tr#th_donHang td {
+        border: none;
+    }
+
+#contain_btn_donhang {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 225px;
+    justify-content: space-between;
+}
+
+input#btnRefreshDonHang {
+    cursor: pointer;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: #5bc0de;
+    /* border-color: #46b8da; */
+    border: 1px solid #46b8da;
+    color: white;
+    border-radius: 5px;
+    outline: none;
+}
+
+table#tblDonHang tr:nth-child(even) {
+    background-color: #F2F2F2;
+}
+
+.chiTietDonHang {
+    color: blue;
+    cursor: pointer;
+}
+
+    .chiTietDonHang:hover {
+        text-decoration: underline;
+    }
+
+#totalMoney {
+    visibility: hidden;
+    margin-top: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #3c3c3c;
+}
+
+#backListDonHang {
+    display: none;
+    cursor: pointer;
+    width: fit-content;
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: #5bc0de;
+    color: white;
+    border-radius: 5px;
+}
+/**/
+div#WrapEditDonHang {
+    border: 1px solid #e2e2e2;
+    position: fixed;
+    top: 50%;
+    padding: 30px;
+    padding-top: 0px;
+    padding-right: 0px;
+    z-index: 10;
+    left: 50%;
+    font-family: sans-serif;
+    /*transform: translate(-50%, -50%);*/
+    background-color: white;
+    box-shadow: 0px 0px 8px #929191;
+}
+
+.WrapEditDonHang {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.8s;
+    transform: scale(0.2) translate(-50%, -50%);
+    transform-origin: 0% 0%;
+}
+
+.showWrapEditDonHang {
+    visibility: visible;
+    opacity: 1;
+    transform: scale(1) translate(-50%, -50%);
+    transform-origin: 0% 0%;
+}
+
+div#shadow_EditDonHang {
+    position: fixed;
+    background-color: #0a0a0a99;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+span.txt_tinhTrang {
+    display: inline-block;
+    width: 100px;
+}
+
+span.editTinhTrang {
+    margin-left: 15px;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+div#btnClose {
+    color: white;
+    float: right;
+    font-size: 30px;
+    padding: 0px 6px;
+    background-color: #e43535;
+    margin-top: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    width: fit-content;
+}
+
+div#WrapEditDonHang p {
+    clear: both;
+    padding-right: 30px;
+    margin-top: 48px;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    color: blue;
+    margin-bottom: 18px;
+}
+
+div#WrapEditDonHang input, div#WrapEditDonHang label {
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+div#btnSaveEditDonHang, #btnCancelEditDonHang {
+    width: fit-content;
+    background: #1298d8;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div#btnCancelEditDonHang {
+    margin-right: 15px;
+    background-color: gray;
+}
+
+.contain_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
