@@ -2,10 +2,10 @@
 <div class="wrapper" style="width:100%; height:100%;">
     <div class="menu_side_left" >
         <div id="logo_adin">
-            <img src="../Images/logo4.png" style="width:100%;" />
+            <img src="../Images/logo6.png" style="width:100%;" />
         </div>
         <ul id="menu">          
-            <li><a href="administrator.aspx?choose=dongho">Đồng hồ</a></li>
+            <li><a href="administrator.aspx?choose=dongho">Sản phẩm</a></li>
             <li><a href="administrator.aspx?choose=userAdmin">Tài khoản</a></li>
             <li><a href="administrator.aspx?choose=donhang">Đơn hàng</a></li>
         </ul>

@@ -12,7 +12,7 @@
 
 <asp:MultiView ID="mulDetailWatch" runat="server" ActiveViewIndex="0">
     <asp:View ID="v0" runat="server"><!--view để hiển thị dữ liệu-->
-        <div class="DetailWatchTitle titile_watchs"><b>Danh sách các đồng hồ</b></div>
+        <div class="DetailWatchTitle titile_watchs"><b>Danh sách các sản phẩm</b></div>
         <div class="btn_addNew"><asp:LinkButton ID="lnkUpdate" runat="server" CssClass="addNewDetailDH" OnClick="lnkAddNew_Click" >Thêm mới</asp:LinkButton></div>
         <asp:DropDownList ID="drpWatchCategory" CssClass="drpWatchCategory" runat="server" AutoPostBack="true" OnSelectedIndexChanged="drpWatchCategory_SelectedIndexChanged"></asp:DropDownList>
        <div style="clear:both;margin-bottom: 15px;"></div>
@@ -21,7 +21,7 @@
                 <table style="width:100%;" class="rptHed tblDisplay" >
                     <tr  class="tbl_tr_title">
                         <td style="width:100px;">Image</td>
-                        <td style="width:400px;">Mã Đồng Hồ</td>
+                        <td style="width:400px;">Mã sản phẩm</td>
                         <td style="width:100px;">giá</td>
                         <td style="width:100px;">giảm giá</td>
                         <td style="width:100px;">số lượng</td>
@@ -86,17 +86,17 @@
         <div style="margin-bottom:50px;" ></div>
     </asp:View> 
     <asp:View id="v1" runat="server"><!--view để thêm dữ liệu hoặc cập nhật-->
-        <div class="DetailWatchTitle titile_watchs"><b>Thêm mới đồng hồ</b></div>
+        <div class="DetailWatchTitle titile_watchs"><b>Thêm mới sản phẩm</b></div>
         <table style="width:100%" id="tblEditDH">
             <tr class="tr_tblAddNew">
-                <td class="auto-style2">Loại đồng hồ:</td>
+                <td class="auto-style2">Loại sản phẩm:</td>
                  <td ></td>
                  <td>
                      <asp:DropDownList ID="drpWatchCategory2" CssClass="drpWatchCategory drpWatchCategoryToAdd" runat="server"></asp:DropDownList>
                  </td>
             </tr>
             <tr class="tr_tblAddNew">
-                <td class="auto-style2">Mã đồng hồ:</td>
+                <td class="auto-style2">Mã sản phẩm:</td>
                  <td></td>
                  <td>
                      <asp:TextBox ValidationGroup="editDH" ID="txtCode" runat="server" style="width:500px" CssClass="text"></asp:TextBox>
@@ -154,43 +154,7 @@
                     ErrorMessage="* Kiểu dáng đồng hồ không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
             </tr>
             <tr class="tr_tblAddNew">
-                <td class="auto-style2">Năng Lượng:</td>
-                 <td></td>
-                 <td>
-                     <asp:TextBox ValidationGroup="editDH" ID="txtNangLuong" runat="server" style="width:500px"></asp:TextBox>
-                 </td>
-                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" Display="None" runat="server" ControlToValidate="txtNangLuong"
-                    ErrorMessage="* Năng lượng đồng hồ không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Độ chịu Nước:</td>
-                 <td></td>
-                 <td>
-                    <asp:TextBox ValidationGroup="editDH" ID="txtDoChiuNuoc" placeholder="(nhập số nguyên dương - đơn vị ATM)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
-                 </td>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator8" Display="None" runat="server" ControlToValidate="txtDoChiuNuoc"
-                    ErrorMessage="* Độ chịu nước không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Chất liệu mặt:</td>
-                 <td></td>
-                 <td>
-                    <asp:TextBox ValidationGroup="editDH" ID="txtChatLieuMat" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
-                 </td>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator9" Display="None" runat="server" ControlToValidate="txtChatLieuMat"
-                    ErrorMessage="* Chất liệu mặt không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Đường kính mặt:</td>
-                 <td></td>
-                 <td>
-                    <asp:TextBox ValidationGroup="editDH" ID="txtDuongKinhMat" placeholder="(nhập số thực lớn hơn 0 - đơn vị mm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
-                 </td>
-                 <asp:RequiredFieldValidator ID="RequiredFieldValidator10" Display="None" runat="server" ControlToValidate="txtDuongKinhMat"
-                    ErrorMessage="* Đường kính mặt không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Chất Liệu Dây:</td>
+                <td class="auto-style2">Chất Liệu:</td>
                  <td></td>
                  <td>
                     <asp:TextBox ValidationGroup="editDH" ID="txtChatLieuDay" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
@@ -198,42 +162,6 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator11" Display="None" runat="server" ControlToValidate="txtChatLieuDay"
                     ErrorMessage="* Chất liệu dây không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
             </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Kích cỡ dây:</td>
-                 <td></td>
-                 <td>
-                    <asp:TextBox ValidationGroup="editDH" ID="txtSizeDay" placeholder="(nhập số thực lớn hơn 0 - đơn vị mm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
-                 </td>
-                 <asp:RequiredFieldValidator ID="RequiredFieldValidator12" Display="None" runat="server" ControlToValidate="txtSizeDay"
-                    ErrorMessage="* Kích cỡ dây không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Chất liệu vỏ:</td>
-                 <td></td>
-                 <td>
-                    <asp:TextBox ValidationGroup="editDH" ID="txtChatLieuVo" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
-                 </td>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator13" Display="None" runat="server" ControlToValidate="txtChatLieuVo"
-                    ErrorMessage="* Chất liệu vỏ không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Đường kính vỏ:</td>
-                 <td></td>
-                 <td>
-                    <asp:TextBox ValidationGroup="editDH" ID="txtDuongKinhVo" placeholder="(nhập số thực lớn hơn 0 - đơn vị mm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
-                 </td>
-                <asp:RequiredFieldValidator ID="RequiredFieldValidator14" Display="None" runat="server" ControlToValidate="txtDuongKinhVo"
-                    ErrorMessage="* Đường kính vỏ không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>
-            <tr class="tr_tblAddNew">
-                <td class="auto-style2">Thời gian bảo hành:</td>
-                 <td></td>
-                 <td>
-                    <asp:TextBox ValidationGroup="editDH" ID="txtTimeBaoHanh" placeholder="(nhập số thực lớn hơn 0 - đơn vị năm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
-                 </td>
-                  <asp:RequiredFieldValidator ID="RequiredFieldValidator15" Display="None" runat="server" ControlToValidate="txtTimeBaoHanh"
-                    ErrorMessage="* Thời gian bảo hành không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
-            </tr>           
             <tr class="tr_tblAddNew">
                 <td class="auto-style2">Có hiển thị ?:</td>
                  <td></td>
@@ -248,6 +176,80 @@
                      <asp:Button ID="btnUpdate" runat="server" ValidationGroup="editDH" class="btnUpdateData" Text="Cập nhật" OnClick="btnUpdate_Click" />
                  </td>
             </tr>
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2">Năng Lượng:</td>
+                 <td></td>
+                 <td>
+                     <asp:TextBox ValidationGroup="editDH" ID="txtNangLuong" runat="server" style="width:500px"></asp:TextBox>
+                 </td>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator7" Display="None" runat="server" ControlToValidate="txtNangLuong"
+                    ErrorMessage="* Năng lượng đồng hồ không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2" >Độ chịu Nước:</td>
+                 <td></td>
+                 <td>
+                    <asp:TextBox ValidationGroup="editDH" ID="txtDoChiuNuoc" placeholder="(nhập số nguyên dương - đơn vị ATM)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
+                 </td>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator8" Display="None" runat="server" ControlToValidate="txtDoChiuNuoc"
+                    ErrorMessage="* Độ chịu nước không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2">Chất liệu mặt:</td>
+                 <td></td>
+                 <td>
+                    <asp:TextBox ValidationGroup="editDH" ID="txtChatLieuMat" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
+                 </td>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator9" Display="None" runat="server" ControlToValidate="txtChatLieuMat"
+                    ErrorMessage="* Chất liệu mặt không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2">Đường kính mặt:</td>
+                 <td></td>
+                 <td>
+                    <asp:TextBox ValidationGroup="editDH" ID="txtDuongKinhMat" placeholder="(nhập số thực lớn hơn 0 - đơn vị mm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
+                 </td>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator10" Display="None" runat="server" ControlToValidate="txtDuongKinhMat"
+                    ErrorMessage="* Đường kính mặt không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>
+            
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2">Kích cỡ dây:</td>
+                 <td></td>
+                 <td>
+                    <asp:TextBox ValidationGroup="editDH" ID="txtSizeDay" placeholder="(nhập số thực lớn hơn 0 - đơn vị mm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
+                 </td>
+                 <asp:RequiredFieldValidator ID="RequiredFieldValidator12" Display="None" runat="server" ControlToValidate="txtSizeDay"
+                    ErrorMessage="* Kích cỡ dây không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2">Chất liệu vỏ:</td>
+                 <td></td>
+                 <td>
+                    <asp:TextBox ValidationGroup="editDH" ID="txtChatLieuVo" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
+                 </td>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator13" Display="None" runat="server" ControlToValidate="txtChatLieuVo"
+                    ErrorMessage="* Chất liệu vỏ không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2">Đường kính vỏ:</td>
+                 <td></td>
+                 <td>
+                    <asp:TextBox ValidationGroup="editDH" ID="txtDuongKinhVo" placeholder="(nhập số thực lớn hơn 0 - đơn vị mm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
+                 </td>
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator14" Display="None" runat="server" ControlToValidate="txtDuongKinhVo"
+                    ErrorMessage="* Đường kính vỏ không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>
+            <tr class="tr_tblAddNew" style="visibility: hidden">
+                <td class="auto-style2">Thời gian bảo hành:</td>
+                 <td></td>
+                 <td>
+                    <asp:TextBox ValidationGroup="editDH" ID="txtTimeBaoHanh" placeholder="(nhập số thực lớn hơn 0 - đơn vị năm)" runat="server"  style="width:500px" CssClass="text"></asp:TextBox>
+                 </td>
+                  <asp:RequiredFieldValidator ID="RequiredFieldValidator15" Display="None" runat="server" ControlToValidate="txtTimeBaoHanh"
+                    ErrorMessage="* Thời gian bảo hành không được để trống" ValidationGroup="editDH"></asp:RequiredFieldValidator>
+            </tr>           
+            
         </table>
         <asp:ValidationSummary ID="ValidationSummary1" runat="server"  ValidationGroup="editDH" ForeColor="Red" CssClass="contain_err"/>
     </asp:View>

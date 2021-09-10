@@ -24,41 +24,7 @@
 
     <div class="wrapper"  style="width:92vw;max-width: 1257px;margin: 0 auto;">
         <!--====================== MENU content =================================== -->
-        <div class="container-menu-content">
-
-            <div id="menu_sp_1">
-                <div class="item-menu-content">
-                    <div class="sub-item-sp1">
-                        <a title="Đồng hồ Atlantic Swiss" href="#"><img src="./images/Atlatic.jpg" /> </a>
-                    </div>
-                </div>
-                <div class="item-menu-content">
-                    <div class="sub-item-sp1">
-                        <a title="Đồng hồ Diamomd D" href="#"><img src="./images/DiamondD.jpg" /></a>
-                    </div>
-                </div>
-                <div class="item-menu-content">
-                    <div class="sub-item-sp1">
-                        <a title="Đồng hồ Jacques Lmans" href="#"><img src="./images/Jacques.jpg" /></a>
-                    </div>
-                </div>
-                <div class="item-menu-content">
-                    <div class="sub-item-sp1">
-                        <a title="Đồng hồ Aries Gold" href="#"><img src="./images/AriesGold.jpg" /></a>
-                    </div>
-                </div>
-                <div class="item-menu-content">
-                    <div class="sub-item-sp1">
-                        <a title="Đồng hồ Epos Swiss" href="#"><img src="./images/Epos.jpg" /></a>
-                    </div>
-                </div>
-                <div class="item-menu-content">
-                    <div class="sub-item-sp1">
-                        <a title="Đồng hồ QvsQ" href="#"><img src="./images/Q-Q.jpg" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- end menu content -->
           <!--============================section content2 ================-->
         <div class="container_titile_group_watch">
@@ -66,8 +32,8 @@
             <div class="group-watch">
                 <div class="thuoc"></div>
                 <div class="titile">
-<%--                    <a href="#" style="text-transform: uppercase;">Đồng hồ đang giảm giá</a>--%>
-                    <asp:LinkButton ID="lnkDHSale" runat="server" style="text-transform: uppercase;">Đồng hồ đang giảm giá</asp:LinkButton>
+<%--                    <a href="#" style="text-transform: uppercase;">Sản phẩm đang giảm giá</a>--%>
+                    <asp:LinkButton ID="lnkDHSale" runat="server" style="text-transform: uppercase;">Sản phẩm đang giảm giá</asp:LinkButton>
                 </div>
                 <div class="thuoc"></div>
             </div>

@@ -307,17 +307,19 @@ namespace BTL.admin.DongHo
                         hdDetailID.Value = e.CommandArgument.ToString();
                         txtQuantity.Text = dt.Rows[0]["quantity"].ToString();
                         txtKieuDang.Text = dt.Rows[0]["kieuDang"].ToString();
-                        txtNangLuong.Text = dt.Rows[0]["nangLuong"].ToString();
-                        txtDoChiuNuoc.Text = dt.Rows[0]["doChiuNuoc"].ToString();
-                        txtChatLieuMat.Text = dt.Rows[0]["chatLieuMat"].ToString();
-                        txtDuongKinhMat.Text = dt.Rows[0]["duongKinhMat"].ToString();
+                        txtNangLuong.Text = "1";
+                        txtDoChiuNuoc.Text = "1";
+                        txtChatLieuMat.Text = "1";
+                        txtDuongKinhMat.Text = "1";
                         txtChatLieuDay.Text = dt.Rows[0]["chatLieuDay"].ToString();
-                        txtSizeDay.Text = dt.Rows[0]["sizeDay"].ToString();
-                        txtChatLieuVo.Text = dt.Rows[0]["chatLieuVo"].ToString();
-                        txtDuongKinhVo.Text = dt.Rows[0]["duongKinhVo"].ToString();
-                        txtTimeBaoHanh.Text = dt.Rows[0]["timeBaoHanh"].ToString();
-                        
-                        chkActive.Checked = ((bool)dt.Rows[0]["Active"]) ? true : false;                       
+                        txtSizeDay.Text = "1";
+                        txtChatLieuVo.Text = "1";
+                        txtDuongKinhVo.Text = "1";
+                        txtTimeBaoHanh.Text = "1";
+
+                        //chkActive.Checked = ((bool)dt.Rows[0]["active"]) ? true : false;
+                        chkActive.Checked = true;
+
                         hdInsert.Value = "update";
                         mulDetailWatch.ActiveViewIndex = 1;
                     }

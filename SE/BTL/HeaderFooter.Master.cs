@@ -4,8 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using BTL.KetNoiSQL;
-//using BTL.KetNoiMySQL;
+//using BTL.KetNoiSQL;
+using BTL.KetNoiMySQL;
 
 namespace BTL
 {

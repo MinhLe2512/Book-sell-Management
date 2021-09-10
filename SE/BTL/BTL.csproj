@@ -243,13 +243,6 @@
     <Compile Include="KetNoiMySQL\connectSQL.cs" />
     <Compile Include="KetNoiMySQL\controlAdmin.cs" />
     <Compile Include="KetNoiMySQL\userKhachHang.cs" />
-    <Compile Include="KetNoiSQL\clsComment.cs" />
-    <Compile Include="KetNoiSQL\clsDHforDisplay.cs" />
-    <Compile Include="KetNoiSQL\clsDongHo.cs" />
-    <Compile Include="KetNoiSQL\clsDonHang.cs" />
-    <Compile Include="KetNoiSQL\connectSQL.cs" />
-    <Compile Include="KetNoiSQL\controlAdmin.cs" />
-    <Compile Include="KetNoiSQL\userKhachHang.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ThanhToan.aspx.cs">
       <DependentUpon>ThanhToan.aspx</DependentUpon>

@@ -16,11 +16,11 @@ namespace BTL.KetNoiMySQL
             MySqlCommand sqlCom;
             if (gioiTinh == 1)
             {
-                sqlCom = new MySqlCommand("insert into users values(@name,1,null,@password,'',@phone,@email,@acc,@ngaysinh,0)");
+                sqlCom = new MySqlCommand("insert into users(userName, gioiTinh, urlAvatarPicture, password, address, phone, email, account, ngaySinh, isAdmin) values(@name,1,null,@password,'',@phone,@email,@acc,@ngaysinh,0)");
             }
             else
             {
-                sqlCom = new MySqlCommand("insert into users values(@name,0,null,@password,'',@phone,@email,@acc,@ngaysinh,0)");
+                sqlCom = new MySqlCommand("insert into users(userName, gioiTinh, urlAvatarPicture, password, address, phone, email, account, ngaySinh, isAdmin) values(@name,0,null,@password,'',@phone,@email,@acc,@ngaysinh,0)");
             }
             sqlCom.CommandType = CommandType.Text;
             sqlCom.Parameters.AddWithValue("@name", Name);

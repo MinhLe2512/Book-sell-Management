@@ -3,10 +3,10 @@
     <link href="style/DangNhap.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="wrap_sigUp" style="background-image:url('./images/bg3.jpg');width:100%;">
+    <div class="wrap_sigUp" style="width:100%;">
         <div style="width:100%;height:20px;"></div>
     <div class="wrapper-dangky"  style="width: 1048px;margin: 0 auto;">
-		<div class="fl-left  wrapp-itemLeft">
+		<div class="fl-left  wrapp-itemLeft" >
 			<div><span>Đăng nhập</span></div>
 			<div>
 				<p>Đăng nhập để theo dõi đơn hàng, lưu</p>

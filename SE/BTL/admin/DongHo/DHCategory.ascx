@@ -11,7 +11,7 @@
                 <HeaderTemplate>
                     <table style="width:100%;" class="tblDisplay">
                         <tr class="tbl_tr_title">
-                            <td style="width:300px;">Loại Đồng Hồ</td>
+                            <td style="width:300px;">Loại sản phẩm</td>
                             <td style="width:300px;">Xuất xứ</td>
                             <td style="width:300px;">Hãng Sản Xuất</td>
                             <td style="width:100px;">Delete</td>
