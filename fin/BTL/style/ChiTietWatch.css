@@ -1,0 +1,379 @@
+﻿
+#WrapDetailWatch .container {
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    width: 100%;
+    /*height: 5713px;*/
+}
+
+    #WrapDetailWatch .container a {
+        color: black;
+        /* padding-left: 20px; */
+    }
+
+#WrapDetailWatch .head_Title {
+    padding-top: 20px;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid #B2B2B2;
+}
+
+    #WrapDetailWatch .head_Title span {
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+        font-size: 15px;
+        padding-right: 0px;
+        padding-left: 15px;
+        color: blueviolet;
+        font-weight: bold;
+    }
+
+.ctdh1 {
+    /* height: 500px; */
+    /* display: grid; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 28px;
+    clear: bt;
+    /* clear: both; */
+}
+
+.ctdh2 {
+    width: calc(100% - 450px);
+}
+
+#WrapDetailWatch .wrap_image {
+    margin-left: 30px;
+    width: 450px;
+    height: 500px;
+    border: 1px solid pink;
+    text-align: center;
+}
+
+#WrapDetailWatch .nameDH {
+    border-bottom: 1px solid pink;
+    margin-left: 27px;
+    text-align: left;
+    height: 30px;
+    /* width: 100%; */
+    /* overflow: hidden; */
+    /* margin-top: 25px; */
+    /* margin-right: 30px; */
+}
+
+    #WrapDetailWatch .nameDH a {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+#WrapDetailWatch .content_head {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+    #WrapDetailWatch .content_head b {
+        font-size: 20px;
+        border-bottom: 1px solid brown;
+    }
+
+.tskt {
+    width: 400px;
+    height: 23px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.tskt1 {
+    width: 150px;
+}
+
+.tskt2 {
+    background-color: #F2F2F2;
+}
+
+#WrapDetailWatch .ThuongHieuChiTiet img {
+    max-width: 500px;
+}
+
+.menu_Choose_right {
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+    .menu_Choose_right b {
+        font-size: 110%;
+        font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    }
+
+    .menu_Choose_right p {
+        font-weight: bold;
+    }
+
+.chooses {
+    width: 220px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+#WrapDetailWatch .chiTiet {
+    width: 100%;
+    clear: both;
+    /* display: block!important; */
+    /* display: flex; */
+    /* height: 350px; */
+}
+
+#WrapDetailWatch .chiTiet_Title {
+    padding-left: 30px;
+    font-size: 110%;
+    padding-top: 30px;
+    margin-bottom: 15px;
+}
+
+    #WrapDetailWatch .chiTiet_Title b {
+        border-bottom: 1px solid brown;
+    }
+
+#WrapDetailWatch .chiTiet_content {
+    padding-left: 30px;
+}
+
+    #WrapDetailWatch .chiTiet_content span {
+        font-weight: bold;
+        font-size: 105%;
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: 10px;
+    }
+
+.wrap_comment {
+    padding-left: 35px;
+    width: 870px;
+    margin-top: 20px;
+    display: block;
+    /* display: flex; */
+}
+
+.number_comment {
+    border-bottom: 1px solid brown;
+    height: 20px;
+    width: 870px;
+    padding-bottom: 10px;
+}
+
+    .number_comment b {
+        padding-right: 720px;
+    }
+
+.img_comment {
+    /*padding-top: 20px;*/
+    width: 50px;
+    float: left;
+    margin-right: 13px;
+}
+.avatarUserInputComment {
+    width: 40px;
+    height: 40px;
+    padding-top: 5px;
+}
+.post_comment button {
+    /* margin-left: 810px; */
+    width: 60px;
+    height: 30px;
+    background-color: #0CB4E7;
+    color: white;
+}
+
+.post_comment {
+    margin-left: 10px;
+    width: 60px;
+    border-bottom: 1px solid pink;
+    float: left;
+    margin-top: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.text_comment {
+    margin-top: 10px;
+    float: left;
+    /* margin-left: 55px; */
+}
+
+    .text_comment .input {
+        height: 31px;
+        width: 727px;
+        font-size: 100%;
+        /* margin-top: -20px; */
+        border: 1px solid pink;
+    }
+
+.btnAddComment {
+    height: 34px;
+    width: 68px;
+    background-color: #00bcd4;
+    border: 1px solid #4a9ac8;
+    cursor: pointer;
+    color: white;
+}
+
+.wrapper-comments {
+    clear: both; /* margin-top: 10px; */
+    padding-top: 15px;
+    width: 100%;
+}
+
+    .wrapper-comments .comment-item {
+        width: 95%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        /* display: block; */
+    }
+
+    .wrapper-comments .comment {
+        display: flex;
+        flex-direction: row; /* align-content: flex-start; */ /* align-items: flex-start; */
+    }
+
+    .wrapper-comments .anhUser {
+        width: 50px;
+        height: 50px;
+        /* border-radius: 50%; */
+        overflow: hidden;
+        margin-right: 15px;
+    }
+
+    .wrapper-comments .nameUser {
+        font-family: sans-serif;
+        color: black;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .wrapper-comments .anhUser img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-comments .contain-comment {
+        width: calc(100% - 65px);
+    }
+
+    .wrapper-comments .comment-content {
+        /* display: block; */
+        margin: 0px 0px;
+        margin-top: 5px;
+        font-family: sans-serif;
+        text-align: justify;
+ 
+    }
+
+    .wrapper-comments .btn {
+        color: blue !important;
+        margin-right: 10px;
+    }
+
+    .wrapper-comments .btns {
+        margin-left: 65px;
+        margin-top: 5px;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    .wrapper-comments .date {
+    }
+
+    .wrapper-comments .btnLike {
+    }
+
+    .wrapper-comments .btnReply {
+    }
+
+#WrapDetailWatch .gioiThieu_Title {
+    height: 40px;
+    margin-left: 32px;
+    width: 870px;
+    border-bottom: 1px solid pink;
+    padding-top: 20px;
+}
+
+    #WrapDetailWatch .gioiThieu_Title span {
+        font-size: 150%;
+    }
+
+.ThuongHieuChiTiet {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+    .ThuongHieuChiTiet span {
+        font-size: 130%;
+    }
+
+    .ThuongHieuChiTiet a {
+        font-size: 170%;
+        margin-left: -20px;
+        line-height: 80px;
+        font-weight: bold;
+    }
+
+.DHKhac_title {
+    clear: both;
+    margin-left: 35px;
+    padding: 20px 0px;
+}
+
+.DHKhac {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(6, 16%);
+    justify-content: space-between;
+}
+
+#WrapDetailWatch .container .DHKhac a {
+    padding-left: 0px;
+}
+
+.item-DHKhac {
+    text-align: center;
+    /* width: 200px; */
+    /* height: 370px; */
+    background-color: #FFFFFF;
+    /* margin-left: 5px; */
+    /* margin-right: 3px; */
+    margin-bottom: 20px;
+}
+
+.wrap-item-DHKhac {
+    justify-content: center;
+    display: flex;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.item-DHKhac a {
+    color: black;
+}
+
+.DHKhac img {
+    width: 100%;
+}
+
+.item-DHKhac input {
+    background-color: #FFFFFF;
+    color: red;
+    font-weight: bold;
+    height: 25px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+a.nameProductDongHo {
+    display: block;
+    height: 50px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+    a.nameProductDongHo span:hover {
+        color: #0039ff;
+    }

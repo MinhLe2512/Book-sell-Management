@@ -1,0 +1,206 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HeaderFooter.master.cs" Inherits="BTL.HeaderFooter" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="style/HeaderFooter.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header class="header">
+        <div class="wrapper_header" style="width:92vw;max-width: 1257px;margin: 0 auto;">
+            <div class="logo ">
+                <a href="/"><img src="./images/logo6.png" /></a><br/>
+            </div>
+
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <!--cái checkbox này ko được hiển thị, chỉ có mục đích viết css cho menu responsive-->
+            <label class="menu-icon" for="menu-btn"> <!--cái này tạo menu-ion có 3 thanh ngang khi màn hình nhỏ - click 1 lần vào cái này thì thẻ input phía trên được checked, 1 lần nữa thì unchecked-->
+            <span class="navicon"></span>
+             </label>
+            <ul class="menu">
+                <li class="search">
+                    <div class="">
+                        <%--<input  type="text"  name="" /><input type="submit" value="Tìm kiếm" name="" />--%>
+                        <asp:TextBox ID="txtsearch" class="t" runat="server" placeholder="   Tìm kiếm sản phẩm..." BackColor="White" BorderColor="Black" ForeColor="Black"></asp:TextBox>
+                        <asp:Button ID="btnsearch" runat="server" Text="Tìm kiếm" CssClass="btn1 t1" OnClick="btnsearch_Click"/><!--  -->
+                    </div>
+                </li>
+                <li>
+                    <a href="/GioHang.aspx">Giỏ hàng(<asp:Label ID="TotalWatchBuy" runat="server" Text="0"></asp:Label>)</a>
+                    <span id="addedCart"></span>
+                </li>
+                <li>
+                    <div class="systemshop">
+                        <a href="#" title="Hệ thống cửa hàng">Thông báo</a>
+                        <!--<a href="#" title="Hệ thống cửa hàng" class="showroom">(100)Showroom</a>-->
+                    </div>
+                </li>
+                <li>
+                    <div class="loginLogout" id="loginLogout" runat="server">
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="empty"></div>
+    <!--  -->
+    <!-- ==============menu thứ 2================ -->
+    <div class="wraper" style="background-color: white;">
+        <div class="container-fluid" style="width:92vw;max-width: 1257px;">
+            <div id="menu-top">
+                <div class="dropdown-menu item-menu-top2">
+                    <div id="menu2" class="" align="center">
+                        <ul>
+                            <li>
+                                <a class="dmsp" href="#">
+                                    <div class="">
+                                        <div class="space"></div>
+                                        <div class="icon-dmsp"></div>
+                                        <div class="icon-dmsp"></div>
+                                        <div class="icon-dmsp"></div>
+                                    </div>
+                                    <span>DANH MỤC SẢN PHẨM</span>
+                                </a>
+                                 <asp:Repeater ID="rptDropdownMenu" runat="server">
+                                    <HeaderTemplate>
+                                        <ul class="sub-menu2">
+                                    </HeaderTemplate>
+                                    <ItemTemplate>
+                                        <li>
+                                            <a href='/DongHo.aspx?searchByTypeID=<%#:Eval("typeDHid") %>' title='<%#:Eval("nameTypeDH") %>' style="font-size: 16px;"> <%#:Eval("nameTypeDH") %></a>
+                                        </li>
+                                    </ItemTemplate>
+                                    <FooterTemplate>
+                                       </ul>
+                                    </FooterTemplate>
+                                </asp:Repeater>  
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh "><a href="./DongHo.aspx" title="Đồng hồ">PHỤ KIỆN</a></div>
+                    <div class="dmdhi ">
+                        <a href="#"><img title="Đồng hồ" src="./images/Capture2.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh "><a href="#" title="Phụ kiện đồng hồ">ĐỒ TRANG TRÍ</a></div>
+                    <div class="dmdhi ">
+                        <a href="#"><img title="Phụ kiện đồng hồ" src="./images/Capture3.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2">
+                    <div class="dmdh "><a href="#" title="Khuyến mãi">KHUYẾN MÃI</a></div>
+                    <div class="dmdhi ">
+                        <a href="#"><img title="Đấu giá" src="./images/Capture4.PNG" /></a>
+                    </div>
+                </div>
+                <div class="item-menu-top2  menu-top2-end">
+                    <div class="dmhitt  tintuc">
+                        <a href=""><img title="Tin tức - Sự kiện" src="./images/Capture8.PNG" height="35" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <div class="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="300" data-height="300"></div>
+
+            <script src="https://sp.zalo.me/plugins/sdk.js"></script>
+
+            <!-- ==============================Footer =======================-->
+    <footer style="width:100%; height: auto; background-color: #352750; margin-top: 30px;">
+        <div class="wrapper footer_content" style="width:92vw;margin:0 auto;max-width: 1257px;">
+            <div class="" id="menuft">
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>THÔNG TIN CHUNG</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">Giới thiệu chung</a></li>
+                            <li><a href="#">Kênh tuyển dụng</a></li>
+                            <li><a href="#">Tin tức-Sự kiện</a></li>
+                            <li><a href="#">Cộng đồng sinh viên</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>HỖ TRỢ KHÁCH HÀNG</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">1.Chính sách bảo hàng</a></li>
+                            <li><a href="#">2.Chính sách đổi hàng</a></li>
+                            <li><a href="#">3.Chính sách bảo mật</a></li>
+                            <li><a href="#">4.Chính sách vận chuyển</a></li>
+                            <li><a href="#">5.Hướng dẫn thanh toán</a></li>
+                            <li><a href="#">6.Hướng dẫn mua hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu_foot">
+                    <div class="footer_content1"><span>HƯỚNG DẪN VÀ TƯ VẤN</span>
+                        <ul class="sub-menu1">
+                            <li><a href="#">Góc hỏi đáp</a></li>
+                            <li><a href="#">Chứng nhận thương hiệu</a></li>
+                            <li><a href="#">Tin tức-Sự kiện</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="img_foot">
+                    <div class="contact-online">
+                        <div class="footer_content1"><span>ĐỊA CHỈ CỬA HÀNG</span>
+                            <ul class="sub-menu1 ">
+                                <li>
+                                    <a href="#"><img title="Hệ thống cửa hàng" width="250px" src="./images/photo-1-1470836862788.jpg" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_content1"><span>FANPAGE CỦA CHÚNG TÔI</span>
+                            <ul class="sub-menu1">
+                                <li>
+                                    <a href="#"><img width="200px" src="./images/5-buoc-len-ke-hoach-xay-dung-fanpage-2.jpg" /></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </footer>
+    <div class="day" style="width:100%; height: auto; background-color: #241244;">
+        <div class="wrapper" style="width:92vw;margin:0 auto;max-width: 1257px;">
+            <div class="day_content">
+
+                <div class=" day_content1">
+                    <a href="/"><img src="images/logo6.png" style="width: 200px;margin-top: 32px;" /></a>
+                </div>
+
+                <div class="day_content2">
+                    <div class="day_center">
+                        <p>Địa chỉ: 321. XYZ, XYZ, XYZ</p>
+                        <p>Hotline: 012345678</p>
+                        <p>Email: haru@xyz.com</p>
+                        <p>Website: https://haru.vn</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Footer -->
+
+        </div>
+    </form>
+</body>
+</html>

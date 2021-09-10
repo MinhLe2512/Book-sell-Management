@@ -1,0 +1,110 @@
+﻿.wrap_sigUp {
+    height: 800px;
+    margin-bottom: -30px;
+}
+
+.wrapper-dangky {
+    height: 700px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.wrapp-itemLeft {
+    padding-top: 30px;
+    padding-left: 30px;
+    width: 400px;
+}
+
+    .wrapp-itemLeft span {
+        font-size: 200%;
+    }
+
+    .wrapp-itemLeft p {
+        font-size: 120%;
+    }
+
+.wrapp-itemRight {
+    border-top: 10px solid #F8F8F8;
+    border-left: 10px solid #F8F8F8;
+    border-right: 10px solid #F8F8F8;
+    width: 595px;
+    height: 690px;
+}
+
+.Sigup-itemRight-title {
+    height: 50px;
+    width: 595px;
+    border-bottom: 1px solid brown;
+}
+
+.Sigup-title {
+    padding-top: 10px;
+    width: 180px;
+    font-size: 150%;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.Sigup-title1 {
+    border-bottom: 5px solid brown;
+    height: 35px;
+}
+
+.input {
+    border: 1px solid #d4d4d4;
+}
+
+.nes {
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+    .nes .input {
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+        margin-left: 48px;
+    }
+
+.nes1 {
+    padding-top: 15px;
+    padding-left: 25px;
+}
+
+    .nes1 .input {
+        margin-left: 52px;
+        height: 30px;
+        width: 400px;
+        border-radius: 3px;
+    }
+
+a.btnCreateAccount {
+    width: 383px;
+    height: 40px;
+    padding-top: 12px;
+    border-radius: 5px;
+    background-color: #fdd835;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.itemSigup-Dangnhap {
+    color: black;
+}
+
+.qmk {
+    padding-top: 20px;
+    padding-left: 145px;
+}
+.Login-cacNut {
+    padding-top: 40px;
+    padding-left: 145px;
+}
+
+.login-nut {
+    margin-bottom: 15px;
+}
+.accError, .passError {
+    color: red;
+}

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="db_Store-Web.config Connection String" description="db_Store Connection String used in web.config by the application to access the database." defaultValue="persistsecurityinfo=True;server=sql144.main-hosting.eu;user id=u483564772_Group09;password=1$QncR$s7;database=u483564772_quintuplet2;SSL Mode=None" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\vanbe\\Documents\\cnpm\\Ref\\BTL\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='db_Store']/@connectionString" />
+  </parameter>
+</parameters>

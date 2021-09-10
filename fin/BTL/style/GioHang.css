@@ -1,0 +1,67 @@
+﻿.gioHang_isEmpty {
+    height: 500px;
+    width: 100%;
+}
+.gioHang_title {
+height: 40px;
+width: 100%;
+padding-top: 20px;
+}
+
+.gioHang_isEmpty span {
+font-size: 130%;
+}
+
+.gioHang_isEmpty .gioHang_content {
+height: 300px;
+width: 100%;
+background-color: #FFFFFF;
+text-align: center;
+padding-top: 50px;
+}
+input.btn.btn-remove {
+    background-color: #f90039c9;
+    border: 1px solid #ff0378;
+    border-radius: 50%;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    color: white;
+    outline:none;
+}
+.btnBuy {
+    height: 40px;
+    width: 250px;
+    background-color: #FDCE03;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom:10px;
+}
+.btnBuy:hover{
+    cursor:pointer;
+}
+ .btnBuy a {
+    padding-top: 12px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+table, th, td {
+    border: 1px solid #929292;
+    border-collapse: collapse;
+    text-align: center;
+}
+th{
+    border:none;
+}
+th, td{
+    padding:5px 0px;
+}
+.btn:hover{
+    cursor:pointer;
+}
+tr:hover:not(.tblTitle) {
+    background-color: #eaeaea;
+}
