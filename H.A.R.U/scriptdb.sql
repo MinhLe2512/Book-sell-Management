@@ -106,7 +106,14 @@ INSERT INTO ChiTietSp VALUES
 (10, N'Vòng cổ màu đỏ', N'Mỹ Phúc', 'HM010', 12000, NULL, 'https://drive.google.com/file/d/1BegxIBjT6NUtHZPbLYz6OXMU38w6l1R_/view?usp=sharing', NULL, 15, NULL, N'Vải', NULL, 1),
 (11, N'Vòng tay màu đỏ', N'Thiên Phúc', 'HM011', 10000, NULL, 'https://drive.google.com/file/d/1vvcshMFblnGESwpnnnJD_As4uXYXbEym/view?usp=sharing', NULL, 15, NULL, N'Vải', NULL, 1),
 (12, N'Vòng tay cá tính nhiều màu', N'Thảo My', 'HM012', 10000, NULL, 'https://drive.google.com/file/d/1vQqug7Q3WET1eg1mg24pa0wrTGx59NVJ/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1),
-(13, N'Vòng tay huyền bí', N'Quốc Dũng', 'HM013', 20000, NULL, 'https://drive.google.com/file/d/1RMt5hZ_iPcAqOJiLl5UHBv6NavOJtgdW/view?usp=sharing', NULL, 8, NULL, N'Vải', NULL, 1);
+(13, N'Vòng tay huyền bí', N'Quốc Dũng', 'HM013', 20000, NULL, 'https://drive.google.com/file/d/1RMt5hZ_iPcAqOJiLl5UHBv6NavOJtgdW/view?usp=sharing', NULL, 8, NULL, N'Vải', NULL, 1),
+(14, N'Áo len handmade cho trẻ em', N'Quỳnh Như', 'HM014', 100000, NULL, 'https://drive.google.com/file/d/1keSZtGqJWOjDUDC56XrRLNvgJIw-EKmc/view?usp=sharing', NULL, 7, NULL, N'Vải', NULL, 1),
+(15, N'Áo tự vẽ bằng tay', N'Ngọc Lan', 'HM015', 60000, NULL, 'https://drive.google.com/file/d/1UcesIfUdCGKk4M89mxwlFwknDytfDN-O/view?usp=sharing', NULL, 5, NULL, N'Vải', NULL, 1),
+(16, N'Cú handmade', N'Ngọc Trang', 'HM016', 50000, NULL, 'https://drive.google.com/file/d/10y82Q9_Gz1_24De04NkoHYDH3gjYq-xv/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1),
+(17, N'Móc khoá handmade siêu cute', N'Hà Uyên', 'HM017', 3000, NULL, 'https://drive.google.com/file/d/1_Zy9sE4ENoZjI3yiR5o6fv7xUL3mUQNQ/view?usp=sharing', NULL, 50, NULL, N'Nhựa', NULL, 1),
+(18, N'Hộp quà handmade', N'Cao Cường', 'HM018', 10000, NULL, 'https://drive.google.com/file/d/1w_rka13zwwsbdR6zzaJhvkD-yz8UA_sV/view?usp=sharing', NULL, 13, NULL, N'Giấy', NULL, 1),
+(19, N'Vòng tay mùa xuân', N'Thảo My', 'HM018', 15000, NULL, 'https://drive.google.com/file/d/1MONzp6O0Am7M45zMVe9ar5R4iV7gnxjL/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1);
+
 
 
 INSERT INTO users VALUES
@@ -120,7 +127,13 @@ INSERT INTO users VALUES
 (8, 'quochung', 1, NULL, '12012000', N'162 Lê Văn Sỹ, Quận 3', '0123456789', 'herosuperman@gmail.com', NULL, NULL, NULL), 
 (9, 'thayloc', 1, NULL, 'locfuho', N'375/2/34 Lạc Long Quân, Quận Tân Bình', '0773129412', 'locchacha@gmail.com', NULL, NULL, NULL),
 (10, 'cominhthu', 0, NULL, 'cothuvatly', N'189 Vườn Đào, Quận Tân Phú', '0993128510', 'minhthu97gmail.com', NULL, NULL, NULL),
-(11, 'phuonghang', 0, NULL, 'cohang', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL);
+(11, 'phuonghang', 0, NULL, 'cohang', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL),
+(12, 'jackiepham', 1, NULL, 'phamvanjack', N'321 Tôn Thất Thuyết, Quận 4', '0357483529', 'jackiepham@gmail.com', NULL, NULL, NULL),
+(13, 'khabanh', 1, NULL, 'khavanbanh', N'232 Âu Cơ, Quận Tân Bình', '0168327341', 'khabanh@gmail.com', NULL, NULL, NULL),
+(14, 'thayhuan', 1, NULL, 'huanhoahong', N'9999 CMT8, Quận 10', '0999923728', 'huanrose@gmail.com', NULL, NULL, NULL),
+(15, 'tienbip', 1, NULL, 'concainit', N'2 Trần Hưng Đạo, Quận 11', '0903825445', 'thamlam@gmail.com', NULL, NULL, NULL),
+(16, 'JohnCena', 1, NULL, 'johncena', N'2 23/9, Quận 1', '0111111198', 'johncenaizdabest@gmail.com', NULL, NULL, NULL),
+(17, 'ParkHangSeo', 1, NULL, 'hangseo', N'2 Đống Đa, Hà Nội', '0905728716', 'parkhangseo@gmail.com', NULL, NULL, NULL);
 
 
 INSERT INTO comments VALUES
@@ -133,7 +146,14 @@ INSERT INTO comments VALUES
 (7, 7, 1, CAST(N'2021-08-30 01:39:30' AS DateTime), 3, N'Sản phẩm khá nhỏ @@', 1, 1),
 (8, 6, 2, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sự dễ thương ^^ rất hài lòng', 1, NULL),
 (9, 8, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Màu rất nổi bật, có thể phối với nhiều trang phục', 1, NULL),
-(10, 4, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sao? mình sẽ mua thử xem sao', 1, 9);
+(10, 4, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sao? mình sẽ mua thử xem sao', 1, 9),
+(11, 14, 13, CAST(N'2021-09-01 01:00:30' AS DateTime), 1, N'Sản phẩm không đúng như trên hình', 1, NULL),
+(12, 13, 12, CAST(N'2021-09-01 01:00:30' AS DateTime), 5, N'Đẹp', 1, NULL),
+(13, 12, 11, CAST(N'2021-09-01 23:00:30' AS DateTime), 4, N'Vừa vặn mà màu hơi phai -1 sao', 1, NULL),
+(14, 11, 10, CAST(N'2021-09-01 23:00:30' AS DateTime), 5, N'Oke nice, nhớ sao kê', 1, NULL),
+(15, 15, 19, CAST(N'2021-09-07 07:00:30' AS DateTime), 5, N'Cái nịt thì vừa còn cái vòng thì oke', 1, NULL),
+(16, 9, 13, CAST(N'2021-09-02 07:00:30' AS DateTime), 5, N'Sao thế, đẹp mà :<', 11, NULL),
+(17, 16, 18, CAST(N'2021-09-10 012:00:30' AS DateTime), 5, 'This gift box is so creative, I gave it to my wife and she liked it. Great job!', NULL, NULL);
 
 /* Le Minh chinh sua o day */
 INSERT INTO userLikeComment VALUES
@@ -185,7 +205,7 @@ INSERT INTO userLikeComment VALUES
 (5,4),
 (5,5),
 (9,1),
-(9),2),
+(9,2),
 (9,6),
 (9,11),
 (9,7);
