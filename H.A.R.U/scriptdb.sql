@@ -106,7 +106,8 @@ INSERT INTO ChiTietSp VALUES
 (10, N'Vòng cổ màu đỏ', N'Mỹ Phúc', 'HM010', 12000, NULL, 'https://drive.google.com/file/d/1BegxIBjT6NUtHZPbLYz6OXMU38w6l1R_/view?usp=sharing', NULL, 15, NULL, N'Vải', NULL, 1),
 (11, N'Vòng tay màu đỏ', N'Thiên Phúc', 'HM011', 10000, NULL, 'https://drive.google.com/file/d/1vvcshMFblnGESwpnnnJD_As4uXYXbEym/view?usp=sharing', NULL, 15, NULL, N'Vải', NULL, 1),
 (12, N'Vòng tay cá tính nhiều màu', N'Thảo My', 'HM012', 10000, NULL, 'https://drive.google.com/file/d/1vQqug7Q3WET1eg1mg24pa0wrTGx59NVJ/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1),
-(13, N'Vòng tay huyền bí', N'Quốc Dũng', 'HM013', 20000, NULL, 'https://drive.google.com/file/d/1RMt5hZ_iPcAqOJiLl5UHBv6NavOJtgdW/view?usp=sharing', NULL, 8, NULL, N'Vải', NULL, 1);
+(13, N'Vòng tay huyền bí', N'Quốc Dũng', 'HM013', 20000, NULL, 'https://drive.google.com/file/d/1RMt5hZ_iPcAqOJiLl5UHBv6NavOJtgdW/view?usp=sharing', NULL, 8, NULL, N'Vải', NULL, 1),
+(14, N'Áo len tự vẽ bằng tay', N'Ngọc Lan', 'HM014', 60000, NULL, 'https://drive.google.com/file/d/1UcesIfUdCGKk4M89mxwlFwknDytfDN-O/view?usp=sharing', NULL, 5, NULL, N'Vải', NULL, 1);
 
 
 INSERT INTO users VALUES
