@@ -149,7 +149,8 @@ INSERT INTO comments VALUES
 (12, 13, 12, CAST(N'2021-09-01 01:00:30' AS DateTime), 5, N'Đẹp', 1, NULL),
 (13, 12, 11, CAST(N'2021-09-01 23:00:30' AS DateTime), 4, N'Vừa vặn mà màu hơi phai -1 sao', 1, NULL),
 (14, 11, 10, CAST(N'2021-09-01 23:00:30' AS DateTime), 5, N'Oke nice, nhớ sao kê', 1, NULL),
-(15, 15, 19, CAST(N'2021-09-07 07:00:30' AS DateTime), 5, N'Cái nịt thì vừa còn cái vòng thì oke', 1, NULL);
+(15, 15, 19, CAST(N'2021-09-07 07:00:30' AS DateTime), 5, N'Cái nịt thì vừa còn cái vòng thì oke', 1, NULL),
+(16, 9, 13, CAST(N'2021-09-02 07:00:30' AS DateTime), 5, N'Sao thế, đẹp mà :<', 11, NULL);
 
 /* Le Minh chinh sua o day */
 INSERT INTO userLikeComment VALUES
