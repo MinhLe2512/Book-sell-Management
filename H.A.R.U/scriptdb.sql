@@ -129,7 +129,8 @@ INSERT INTO users VALUES
 (9, 'thayloc', 1, NULL, 'locfuho', N'375/2/34 Lạc Long Quân, Quận Tân Bình', '0773129412', 'locchacha@gmail.com', NULL, NULL, NULL),
 (10, 'cominhthu', 0, NULL, 'cothuvatly', N'189 Vườn Đào, Quận Tân Phú', '0993128510', 'minhthu97gmail.com', NULL, NULL, NULL),
 (11, 'phuonghang', 0, NULL, 'cohang', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL),
-(12, 'jackiepham', 1, NULL, 'phamvanjack', N'321 Tôn Thất Thuyết, Quận 4', '0357483529', 'jackiepham@gmail.com', NULL, NULL, NULL);
+(12, 'jackiepham', 1, NULL, 'phamvanjack', N'321 Tôn Thất Thuyết, Quận 4', '0357483529', 'jackiepham@gmail.com', NULL, NULL, NULL),
+(13, 'khabanh', 1, NULL, 'khavanbanh', N'232 Âu Cơ, Quận Tân Bình', '0168327341', 'khabanh@gmail.com', NULL, NULL, NULL);
 
 
 INSERT INTO comments VALUES
