@@ -153,7 +153,7 @@ INSERT INTO comments VALUES
 (14, 11, 10, CAST(N'2021-09-01 23:00:30' AS DateTime), 5, N'Oke nice, nhớ sao kê', 1, NULL),
 (15, 15, 19, CAST(N'2021-09-07 07:00:30' AS DateTime), 5, N'Cái nịt thì vừa còn cái vòng thì oke', 1, NULL),
 (16, 9, 13, CAST(N'2021-09-02 07:00:30' AS DateTime), 5, N'Sao thế, đẹp mà :<', 11, NULL),
-(17, 16, 18, CAST(N'2021-09-10 012:00:30' AS DateTime), 5, N'This gift box is so creative, I gave it to my wife and she liked it. Great job!', NULL, NULL);
+(17, 16, 18, CAST(N'2021-09-10 012:00:30' AS DateTime), 5, 'This gift box is so creative, I gave it to my wife and she liked it. Great job!', NULL, NULL);
 
 /* Le Minh chinh sua o day */
 INSERT INTO userLikeComment VALUES
