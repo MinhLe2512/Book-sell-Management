@@ -145,7 +145,8 @@ INSERT INTO comments VALUES
 (9, 8, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Màu rất nổi bật, có thể phối với nhiều trang phục', 1, NULL),
 (10, 4, 11, CAST(N'2021-08-30 01:39:30' AS DateTime), 5, N'Thật sao? mình sẽ mua thử xem sao', 1, 9),
 (11, 14, 13, CAST(N'2021-09-01 01:00:30' AS DateTime), 1, N'Sản phẩm không đúng như trên hình', 1, NULL),
-(12, 13, 12, CAST(N'2021-09-01 01:00:30' AS DateTime), 5, N'Đẹp', 1, NULL);
+(12, 13, 12, CAST(N'2021-09-01 01:00:30' AS DateTime), 5, N'Đẹp', 1, NULL),
+(13, 12, 11, CAST(N'2021-09-01 23:00:30' AS DateTime), 4, N'Vừa vặn mà màu hơi phai -1 sao', 1, NULL);
 
 /* Le Minh chinh sua o day */
 INSERT INTO userLikeComment VALUES
