@@ -111,7 +111,9 @@ INSERT INTO ChiTietSp VALUES
 (15, N'Áo tự vẽ bằng tay', N'Ngọc Lan', 'HM015', 60000, NULL, 'https://drive.google.com/file/d/1UcesIfUdCGKk4M89mxwlFwknDytfDN-O/view?usp=sharing', NULL, 5, NULL, N'Vải', NULL, 1),
 (16, N'Cú handmade', N'Ngọc Trang', 'HM016', 50000, NULL, 'https://drive.google.com/file/d/10y82Q9_Gz1_24De04NkoHYDH3gjYq-xv/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1),
 (17, N'Móc khoá handmade siêu cute', N'Hà Uyên', 'HM017', 3000, NULL, 'https://drive.google.com/file/d/1_Zy9sE4ENoZjI3yiR5o6fv7xUL3mUQNQ/view?usp=sharing', NULL, 50, NULL, N'Nhựa', NULL, 1),
-(18, N'Hộp quà handmade', N'Cao Cường', 'HM018', 10000, NULL, 'https://drive.google.com/file/d/1w_rka13zwwsbdR6zzaJhvkD-yz8UA_sV/view?usp=sharing', NULL, 13, NULL, N'Giấy', NULL, 1);
+(18, N'Hộp quà handmade', N'Cao Cường', 'HM018', 10000, NULL, 'https://drive.google.com/file/d/1w_rka13zwwsbdR6zzaJhvkD-yz8UA_sV/view?usp=sharing', NULL, 13, NULL, N'Giấy', NULL, 1),
+(19, N'Vòng tay mùa xuân', N'Thảo My', 'HM018', 15000, NULL, 'https://drive.google.com/file/d/1MONzp6O0Am7M45zMVe9ar5R4iV7gnxjL/view?usp=sharing', NULL, 20, NULL, N'Vải', NULL, 1);
+
 
 
 
