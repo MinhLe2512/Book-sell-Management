@@ -116,7 +116,6 @@ INSERT INTO ChiTietSp VALUES
 
 
 
-
 INSERT INTO users VALUES
 (1, 'admin', 1, 'https://drive.google.com/file/d/1U48UvMcrzng54WSPEs4ALet3QzU-YArn/view?usp=sharing', 'admin', N'227 Nguyễn Văn Cừ, Phường 4 Quận 5, TPHCM', '077621456', 'harucontact@gmail.com', NULL, NULL, 1),
 (2, 'luthevy', 1, 'https://drive.google.com/file/d/1ErhC9hbPr0wSuVJIR8pH6jq8GuBPA2cO/view?usp=sharing', 'vydeptrai', N'78D Cao Văn Lầu, Phường 2 Quận 6, TPHCM', '0773826118', 'luthevy2001@gmail.com', NULL, '2001-03-17 16:59:04', 1),
@@ -130,7 +129,8 @@ INSERT INTO users VALUES
 (10, 'cominhthu', 0, NULL, 'cothuvatly', N'189 Vườn Đào, Quận Tân Phú', '0993128510', 'minhthu97gmail.com', NULL, NULL, NULL),
 (11, 'phuonghang', 0, NULL, 'cohang', N'1 Pasteur, Quận 1', '09988882222', 'hangdaigia@gmail.com', NULL, NULL, NULL),
 (12, 'jackiepham', 1, NULL, 'phamvanjack', N'321 Tôn Thất Thuyết, Quận 4', '0357483529', 'jackiepham@gmail.com', NULL, NULL, NULL),
-(13, 'khabanh', 1, NULL, 'khavanbanh', N'232 Âu Cơ, Quận Tân Bình', '0168327341', 'khabanh@gmail.com', NULL, NULL, NULL);
+(13, 'khabanh', 1, NULL, 'khavanbanh', N'232 Âu Cơ, Quận Tân Bình', '0168327341', 'khabanh@gmail.com', NULL, NULL, NULL),
+(14, 'thayhuan', 1, NULL, 'huanhoahong', N'9999 CMT8, Quận 10', '0999923728', 'huanrose@gmail.com', NULL, NULL, NULL);
 
 
 INSERT INTO comments VALUES
